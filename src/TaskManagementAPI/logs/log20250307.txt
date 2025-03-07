@@ -1,0 +1,294 @@
+2025-03-07 09:35:19 [Warning] Overriding address(es) '"http://localhost:5001"'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-03-07 09:36:42 [Warning] Overriding address(es) '"http://localhost:5001"'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-03-07 09:37:03 [Warning] Failed to determine the https port for redirect.
+2025-03-07 09:37:03 [Warning] Failed to determine the https port for redirect.
+2025-03-07 09:37:03 [Information] Creating a new task with title: "wee"
+2025-03-07 09:37:03 [Information] Execute: CreateTaskCommandHandler.Handle
+2025-03-07 09:37:03 [Error] Error creating task with title: "wee"
+2025-03-07 09:37:03 [Error] Validation failed: 
+ -- entity.Title: Task with the same title already exists Severity: Error
+2025-03-07 09:37:03 [Information] HTTP "POST" "/api/v1/tasks" responded 400 in 176.3267 ms
+2025-03-07 09:54:39 [Warning] Failed to determine the https port for redirect.
+2025-03-07 09:54:39 [Warning] Failed to determine the https port for redirect.
+2025-03-07 09:54:39 [Information] Creating a new task with title: "wee"
+2025-03-07 09:54:39 [Information] Execute: CreateTaskCommandHandler.Handle
+2025-03-07 09:54:39 [Error] Error creating task with title: "wee"
+2025-03-07 09:54:39 [Error] Validation failed: 
+ -- entity.Title: Task with the same title already exists Severity: Error
+2025-03-07 09:54:39 [Information] HTTP "POST" "/api/v1/tasks" responded 400 in 188.6409 ms
+2025-03-07 09:54:49 [Information] Getting tasks with status filter: null
+2025-03-07 09:54:49 [Information] Execute: GetTasksQueryHandler.Handle
+2025-03-07 09:54:49 [Information] Found 11 tasks with status filter: null
+2025-03-07 09:54:49 [Information] HTTP "GET" "/api/v1/tasks" responded 200 in 26.6507 ms
+2025-03-07 09:57:16 [Warning] Failed to determine the https port for redirect.
+2025-03-07 09:57:16 [Warning] Failed to determine the https port for redirect.
+2025-03-07 09:57:16 [Information] Getting tasks with status filter: null
+2025-03-07 09:57:16 [Information] Execute: GetTasksQueryHandler.Handle
+2025-03-07 09:57:16 [Information] Found 11 tasks with status filter: null
+2025-03-07 09:57:16 [Information] HTTP "GET" "/api/v1/tasks" responded 200 in 152.8867 ms
+2025-03-07 10:10:59 [Warning] Failed to determine the https port for redirect.
+2025-03-07 10:10:59 [Warning] Failed to determine the https port for redirect.
+2025-03-07 10:10:59 [Information] Getting tasks with status filter: null
+2025-03-07 10:10:59 [Information] Execute: GetTasksQueryHandler.Handle
+2025-03-07 10:10:59 [Information] Found 11 tasks with status filter: null
+2025-03-07 10:10:59 [Information] HTTP "GET" "/api/v1/tasks" responded 200 in 161.8485 ms
+2025-03-07 10:12:45 [Warning] Failed to determine the https port for redirect.
+2025-03-07 10:12:45 [Warning] Failed to determine the https port for redirect.
+2025-03-07 10:12:45 [Information] Login attempt for user: "string"
+2025-03-07 10:12:45 [Warning] Login failed for user: "string"
+2025-03-07 10:12:45 [Information] HTTP "POST" "/api/v1/auth/login" responded 401 in 49.3138 ms
+2025-03-07 10:12:55 [Information] Login attempt for user: "admin"
+2025-03-07 10:12:55 [Error] HTTP "POST" "/api/v1/auth/login" responded 500 in 15.7094 ms
+System.ArgumentOutOfRangeException: IDX10653: The encryption algorithm 'HS256' requires a key size of at least '128' bits. Key 'Null', is of size: '88'. (Parameter 'key')
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider..ctor(SecurityKey key, String algorithm, Boolean willCreateSignatures)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateSignatureProvider(SecurityKey key, String algorithm, Boolean willCreateSignatures, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.WriteToken(SecurityToken token)
+   at TaskManagementAPI.Services.JwtService.GenerateSecurityToken(String username, String role) in C:\Users\Turar\Desktop\dotnet\TaskManagementAPI\src\TaskManagementAPI\Services\JwtService.cs:line 37
+   at TaskManagementAPI.Controllers.AuthController.Login(LoginRequest request) in C:\Users\Turar\Desktop\dotnet\TaskManagementAPI\src\TaskManagementAPI\Controllers\AuthController.cs:line 28
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-03-07 10:12:55 [Error] An unhandled exception has occurred while executing the request.
+System.ArgumentOutOfRangeException: IDX10653: The encryption algorithm 'HS256' requires a key size of at least '128' bits. Key 'Null', is of size: '88'. (Parameter 'key')
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider..ctor(SecurityKey key, String algorithm, Boolean willCreateSignatures)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateSignatureProvider(SecurityKey key, String algorithm, Boolean willCreateSignatures, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.WriteToken(SecurityToken token)
+   at TaskManagementAPI.Services.JwtService.GenerateSecurityToken(String username, String role) in C:\Users\Turar\Desktop\dotnet\TaskManagementAPI\src\TaskManagementAPI\Services\JwtService.cs:line 37
+   at TaskManagementAPI.Controllers.AuthController.Login(LoginRequest request) in C:\Users\Turar\Desktop\dotnet\TaskManagementAPI\src\TaskManagementAPI\Controllers\AuthController.cs:line 28
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-07 10:18:05 [Warning] Failed to determine the https port for redirect.
+2025-03-07 10:18:05 [Warning] Failed to determine the https port for redirect.
+2025-03-07 10:18:05 [Information] Login attempt for user: "admin"
+2025-03-07 10:18:05 [Error] HTTP "POST" "/api/v1/auth/login" responded 500 in 68.5857 ms
+System.ArgumentOutOfRangeException: IDX10653: The encryption algorithm 'HS256' requires a key size of at least '128' bits. Key 'Null', is of size: '88'. (Parameter 'key')
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider..ctor(SecurityKey key, String algorithm, Boolean willCreateSignatures)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateSignatureProvider(SecurityKey key, String algorithm, Boolean willCreateSignatures, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.WriteToken(SecurityToken token)
+   at TaskManagementAPI.Services.JwtService.GenerateSecurityToken(String username, String role) in C:\Users\Turar\Desktop\dotnet\TaskManagementAPI\src\TaskManagementAPI\Services\JwtService.cs:line 38
+   at TaskManagementAPI.Controllers.AuthController.Login(LoginRequest request) in C:\Users\Turar\Desktop\dotnet\TaskManagementAPI\src\TaskManagementAPI\Controllers\AuthController.cs:line 28
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-03-07 10:18:05 [Error] An unhandled exception has occurred while executing the request.
+System.ArgumentOutOfRangeException: IDX10653: The encryption algorithm 'HS256' requires a key size of at least '128' bits. Key 'Null', is of size: '88'. (Parameter 'key')
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider..ctor(SecurityKey key, String algorithm, Boolean willCreateSignatures)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateSignatureProvider(SecurityKey key, String algorithm, Boolean willCreateSignatures, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.WriteToken(SecurityToken token)
+   at TaskManagementAPI.Services.JwtService.GenerateSecurityToken(String username, String role) in C:\Users\Turar\Desktop\dotnet\TaskManagementAPI\src\TaskManagementAPI\Services\JwtService.cs:line 38
+   at TaskManagementAPI.Controllers.AuthController.Login(LoginRequest request) in C:\Users\Turar\Desktop\dotnet\TaskManagementAPI\src\TaskManagementAPI\Controllers\AuthController.cs:line 28
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-07 10:18:46 [Warning] Failed to determine the https port for redirect.
+2025-03-07 10:18:46 [Warning] Failed to determine the https port for redirect.
+2025-03-07 10:18:46 [Information] Login attempt for user: "admin"
+2025-03-07 10:18:46 [Error] HTTP "POST" "/api/v1/auth/login" responded 500 in 67.6380 ms
+System.ArgumentOutOfRangeException: IDX10653: The encryption algorithm 'HS256' requires a key size of at least '128' bits. Key 'Null', is of size: '88'. (Parameter 'key')
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider..ctor(SecurityKey key, String algorithm, Boolean willCreateSignatures)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateSignatureProvider(SecurityKey key, String algorithm, Boolean willCreateSignatures, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.WriteToken(SecurityToken token)
+   at TaskManagementAPI.Services.JwtService.GenerateSecurityToken(String username, String role) in C:\Users\Turar\Desktop\dotnet\TaskManagementAPI\src\TaskManagementAPI\Services\JwtService.cs:line 38
+   at TaskManagementAPI.Controllers.AuthController.Login(LoginRequest request) in C:\Users\Turar\Desktop\dotnet\TaskManagementAPI\src\TaskManagementAPI\Controllers\AuthController.cs:line 28
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-03-07 10:18:46 [Error] An unhandled exception has occurred while executing the request.
+System.ArgumentOutOfRangeException: IDX10653: The encryption algorithm 'HS256' requires a key size of at least '128' bits. Key 'Null', is of size: '88'. (Parameter 'key')
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider..ctor(SecurityKey key, String algorithm, Boolean willCreateSignatures)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateSignatureProvider(SecurityKey key, String algorithm, Boolean willCreateSignatures, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.WriteToken(SecurityToken token)
+   at TaskManagementAPI.Services.JwtService.GenerateSecurityToken(String username, String role) in C:\Users\Turar\Desktop\dotnet\TaskManagementAPI\src\TaskManagementAPI\Services\JwtService.cs:line 38
+   at TaskManagementAPI.Controllers.AuthController.Login(LoginRequest request) in C:\Users\Turar\Desktop\dotnet\TaskManagementAPI\src\TaskManagementAPI\Controllers\AuthController.cs:line 28
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-07 10:19:37 [Warning] Failed to determine the https port for redirect.
+2025-03-07 10:19:37 [Warning] Failed to determine the https port for redirect.
+2025-03-07 10:19:37 [Information] Login attempt for user: "admin"
+2025-03-07 10:19:37 [Error] HTTP "POST" "/api/v1/auth/login" responded 500 in 67.4645 ms
+System.ArgumentOutOfRangeException: IDX10653: The encryption algorithm 'HS256' requires a key size of at least '128' bits. Key 'Null', is of size: '88'. (Parameter 'key')
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider..ctor(SecurityKey key, String algorithm, Boolean willCreateSignatures)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateSignatureProvider(SecurityKey key, String algorithm, Boolean willCreateSignatures, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.WriteToken(SecurityToken token)
+   at TaskManagementAPI.Services.JwtService.GenerateSecurityToken(String username, String role) in C:\Users\Turar\Desktop\dotnet\TaskManagementAPI\src\TaskManagementAPI\Services\JwtService.cs:line 40
+   at TaskManagementAPI.Controllers.AuthController.Login(LoginRequest request) in C:\Users\Turar\Desktop\dotnet\TaskManagementAPI\src\TaskManagementAPI\Controllers\AuthController.cs:line 28
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-03-07 10:19:37 [Error] An unhandled exception has occurred while executing the request.
+System.ArgumentOutOfRangeException: IDX10653: The encryption algorithm 'HS256' requires a key size of at least '128' bits. Key 'Null', is of size: '88'. (Parameter 'key')
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider..ctor(SecurityKey key, String algorithm, Boolean willCreateSignatures)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateSignatureProvider(SecurityKey key, String algorithm, Boolean willCreateSignatures, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.WriteToken(SecurityToken token)
+   at TaskManagementAPI.Services.JwtService.GenerateSecurityToken(String username, String role) in C:\Users\Turar\Desktop\dotnet\TaskManagementAPI\src\TaskManagementAPI\Services\JwtService.cs:line 40
+   at TaskManagementAPI.Controllers.AuthController.Login(LoginRequest request) in C:\Users\Turar\Desktop\dotnet\TaskManagementAPI\src\TaskManagementAPI\Controllers\AuthController.cs:line 28
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-07 10:20:40 [Warning] Failed to determine the https port for redirect.
+2025-03-07 10:20:40 [Warning] Failed to determine the https port for redirect.
+2025-03-07 10:20:40 [Information] Login attempt for user: "admin"
+2025-03-07 10:20:40 [Information] Login successful for user: "admin"
+2025-03-07 10:20:40 [Information] HTTP "POST" "/api/v1/auth/login" responded 200 in 79.8861 ms
+2025-03-07 10:22:21 [Warning] Failed to determine the https port for redirect.
+2025-03-07 10:22:21 [Warning] Failed to determine the https port for redirect.
+2025-03-07 10:22:21 [Information] Health check
+2025-03-07 10:22:21 [Information] HTTP "GET" "/api/v1/tasks/health" responded 200 in 28.4527 ms
+2025-03-07 10:22:25 [Information] HTTP "GET" "/api/v1/tasks" responded 401 in 4.5003 ms
+2025-03-07 10:25:01 [Information] HTTP "POST" "/api/v1/tasks" responded 401 in 1.0505 ms
+2025-03-07 10:25:08 [Information] Health check
+2025-03-07 10:25:08 [Information] HTTP "GET" "/api/v1/tasks/health" responded 200 in 1.6176 ms
+2025-03-07 10:25:13 [Information] Login attempt for user: "<string>"
+2025-03-07 10:25:13 [Warning] Login failed for user: "<string>"
+2025-03-07 10:25:13 [Information] HTTP "POST" "/api/v1/auth/login" responded 401 in 25.6857 ms
+2025-03-07 10:25:26 [Information] Login attempt for user: "admin"
+2025-03-07 10:25:26 [Information] Login successful for user: "admin"
+2025-03-07 10:25:26 [Information] HTTP "POST" "/api/v1/auth/login" responded 200 in 19.2472 ms
+2025-03-07 10:25:34 [Information] HTTP "GET" "/api/v1/tasks" responded 401 in 0.9447 ms
+2025-03-07 10:25:41 [Information] HTTP "GET" "/api/v1/tasks" responded 401 in 0.5113 ms
+2025-03-07 10:25:44 [Information] Getting tasks with status filter: "<string>"
+2025-03-07 10:25:44 [Information] Execute: GetTasksQueryHandler.Handle
+2025-03-07 10:25:44 [Information] Found 1 tasks with status filter: "<string>"
+2025-03-07 10:25:44 [Information] HTTP "GET" "/api/v1/tasks" responded 200 in 118.6295 ms
+2025-03-07 10:25:56 [Information] Getting tasks with status filter: null
+2025-03-07 10:25:56 [Information] Execute: GetTasksQueryHandler.Handle
+2025-03-07 10:25:56 [Information] Found 11 tasks with status filter: null
+2025-03-07 10:25:56 [Information] HTTP "GET" "/api/v1/tasks" responded 200 in 6.7453 ms

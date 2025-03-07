@@ -1,0 +1,8 @@
+CREATE TABLE Task (
+    Id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    Title VARCHAR(255) NOT NULL,
+    Description VARCHAR NULL,
+    Status VARCHAR(10) NOT NULL,
+    CreatedAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    UpdatedAt TIMESTAMP NULL
+);

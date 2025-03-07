@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\TaskManagementAPI",
+    "\\src\\TaskManagementAPI\\Controllers",
+    "\\src\\TaskManagementAPI\\Entities",
+    "\\src\\TaskManagementAPI\\Repositories",
+    "\\src\\TaskManagementAPI\\Services",
+    "\\src\\TaskManagementAPI\\Services\\Commands",
+    "\\src\\TaskManagementAPI\\Services\\Queries",
+    "\\src\\TaskManagementAPI\\Settings"
+  ],
+  "SelectedNode": "\\src\\TaskManagementAPI\\Entities\\TaskEntity.cs",
+  "PreviewInSolutionExplorer": false
+}

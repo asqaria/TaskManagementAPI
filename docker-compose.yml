@@ -1,0 +1,17 @@
+services:
+  postgres:
+    image: postgres
+    container_name: postgres
+    restart: always
+    environment:
+      POSTGRES_DB: "TaskManagement"
+      POSTGRES_USER: "admin"
+      POSTGRES_PASSWORD: "123"
+    ports:
+      - 5433:5432
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:
+    driver: local
