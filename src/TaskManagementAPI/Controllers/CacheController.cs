@@ -1,6 +1,4 @@
 using Microsoft.AspNetCore.Mvc;
-using TaskManagementAPI.Services;
-using System.Threading.Tasks;
 using TaskManagementAPI.Services.Interface;
 
 namespace TaskManagementAPI.Controllers

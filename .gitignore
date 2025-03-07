@@ -1,6 +1,9 @@
 src/TaskManagementAPI/published/*
 src/TaskManagementAPI/bin/*
 src/TaskManagementAPI/obj/*
+src/TaskManagementAPI/logs/*
 src/SecondServiceConsole/published/*
 src/SecondServiceConsole/bin/*
 src/SecondServiceConsole/obj/*
+src/SecondServiceConsole/logs/*
+.vs/*
