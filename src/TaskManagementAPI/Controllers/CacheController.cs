@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using TaskManagementAPI.Services;
 using System.Threading.Tasks;
+using TaskManagementAPI.Services.Interface;
 
 namespace TaskManagementAPI.Controllers
 {
@@ -8,9 +9,9 @@ namespace TaskManagementAPI.Controllers
     [Route("api/v1/cache")]
     public class CacheController : ControllerBase
     {
-        private readonly RedisService redisService;
+        private readonly IRedisService redisService;
 
-        public CacheController(RedisService redisService)
+        public CacheController(IRedisService redisService)
         {
             this.redisService = redisService;
         }
