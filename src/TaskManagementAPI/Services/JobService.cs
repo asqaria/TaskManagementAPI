@@ -15,7 +15,7 @@ namespace TaskManagementAPI.Services {
             Log.Information("Background job: START");
             try {
                 int num = await repository.RemoveOldAsync(1);
-                Log.Information("Removed " + num + " record(s)");
+                Log.Information($"Removed {num} record(s)");
             } catch (Exception ex) {
                 Log.Fatal(ex.Message);
             }

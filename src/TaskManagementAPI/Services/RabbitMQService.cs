@@ -15,7 +15,7 @@ namespace TaskManagementAPI.Services {
             };
         }
 
-        public void SendMessage<T>(T message, string queueName){
+        public void SendMessage<T>(T message, string queueName) {
             using var connection = this.factory.CreateConnection();
             using var channel = connection.CreateModel();
 

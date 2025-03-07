@@ -3,6 +3,7 @@ using System.Security.Claims;
 using System.Text;
 using Microsoft.IdentityModel.Tokens;
 using TaskManagementAPI.Services.Interface;
+using TaskManagementAPI.Settings;
 
 namespace TaskManagementAPI.Services
 {
@@ -17,8 +18,8 @@ namespace TaskManagementAPI.Services
 
         public string GenerateSecurityToken(string username, string role)
         {
-            var jwtSettings = config.GetSection("JwtSettings");
-            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSettings["SecretKey"]));
+            var jwtSettings = config.GetSection(nameof(JwtSettings)).Get<JwtSettings>();
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSettings.SecretKey));
             var credenbtials = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
             var claims = new List<Claim>
@@ -28,10 +29,10 @@ namespace TaskManagementAPI.Services
             };
 
             var token = new JwtSecurityToken(
-                issuer: jwtSettings["Issuer"],
-                audience: jwtSettings["Audience"],
+                issuer: jwtSettings.Issuer,
+                audience: jwtSettings.Audience,
                 claims: claims,
-                expires: DateTime.Now.AddMinutes(Convert.ToDouble(jwtSettings["ExpirationInMinutes"])),
+                expires: DateTime.Now.AddMinutes(Convert.ToDouble(jwtSettings.ExpirationInMinutes)),
                 signingCredentials: credenbtials
             );
 

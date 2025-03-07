@@ -5,19 +5,21 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using TaskManagementAPI.Services;
 using Hangfire;
-using MassTransit;
 using Hangfire.PostgreSql;
 using TaskManagementAPI.Services.Interface;
 using TaskManagementAPI.Hubs;
 using TaskManagementAPI.Settings;
+using TaskManagementAPI;
 
 var builder = WebApplication.CreateBuilder(args);
+
+var connectionString = builder.Configuration.GetSection(nameof(ConnectionStrings)).Get<ConnectionStrings>();
 
 builder.Services.AddHangfire(config => config
         .SetDataCompatibilityLevel(CompatibilityLevel.Version_180)
         .UseSimpleAssemblyNameTypeSerializer()
         .UseRecommendedSerializerSettings()
-        .UsePostgreSqlStorage(builder.Configuration.GetConnectionString("HangfireConnection")));
+        .UsePostgreSqlStorage(connectionString.HangfireConnection));
 builder.Services.AddHangfireServer();
 builder.Services.AddScoped<IJobService, JobService>();
 
@@ -73,6 +75,8 @@ builder.Services.AddSingleton<RabbitMQService>();
 
 var app = builder.Build();
 
+app.UseMiddleware<ExceptionHandlingMiddleware>();
+
 app.UseHangfireDashboard();
 var bgJobs = builder.Configuration.GetSection(nameof(BackgroundJobSettings)).Get<List<BackgroundJobSettings>>();
 foreach (var bgJob in bgJobs){
@@ -90,8 +94,10 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+var hubSettings = builder.Configuration.GetSection(nameof(HubSettings)).Get<HubSettings>();
+
 app.UseCors();
-app.MapHub<TaskHub>("/taskHub");
+app.MapHub<TaskHub>(hubSettings.TaskHub);
 
 app.UseSerilogRequestLogging();
 

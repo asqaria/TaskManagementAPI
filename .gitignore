@@ -1,0 +1,6 @@
+src/TaskManagementAPI/published/*
+src/TaskManagementAPI/bin/*
+src/TaskManagementAPI/obj/*
+src/SecondServiceConsole/published/*
+src/SecondServiceConsole/bin/*
+src/SecondServiceConsole/obj/*
