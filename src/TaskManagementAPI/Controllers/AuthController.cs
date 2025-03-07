@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Serilog;
-using TaskManagementAPI.Services;
+using TaskManagementAPI.Services.Interface;
 
 namespace TaskManagementAPI.Controllers
 {
@@ -8,9 +8,9 @@ namespace TaskManagementAPI.Controllers
     [Route("api/v1/auth")]
     public class AuthController : ControllerBase
     {
-        private readonly JwtService jwtService;
+        private readonly IJwtService jwtService;
 
-        public AuthController(JwtService jwtService)
+        public AuthController(IJwtService jwtService)
         {
             this.jwtService = jwtService;
         }

@@ -75,7 +75,7 @@ namespace TaskManagementAPI.Repositories
             using (var connection = new NpgsqlConnection(connectionString))
             {
                 connection.Open();
-                var query = "DELETE FROM Task WHERE Id = @Id";
+                var query = @"DELETE FROM Task WHERE Id = @Id";
                 await connection.ExecuteAsync(query, new { Id = id });
             }
         }
@@ -86,8 +86,21 @@ namespace TaskManagementAPI.Repositories
             {
                 connection.Open();
                 var updatedAt = DateTime.UtcNow;
-                var query = "UPDATE Task SET Status = @Status, UpdatedAt = @UpdatedAt WHERE Id = @Id";
+                var query = @"UPDATE Task SET Status = @Status, UpdatedAt = @UpdatedAt WHERE Id = @Id";
                 await connection.ExecuteAsync(query, new { Status = status, Id = id, UpdatedAt = updatedAt });
+            }
+        }
+
+        public async Task<int> RemoveOldAsync(int days){
+            using (var connection = new NpgsqlConnection(connectionString))
+            {
+                connection.Open();
+                var createdAt = DateTime.UtcNow.AddDays(-days);
+                var query = @"SELECT COUNT(Id) FROM Task WHERE CreatedAt < @CreatedAt";
+                var num = await connection.ExecuteScalarAsync<int>(query, new { CreatedAt = createdAt });
+                query = @"DELETE FROM Task WHERE CreatedAt < @CreatedAt";
+                await connection.ExecuteAsync(query, new { CreatedAt = createdAt });
+                return num;
             }
         }
     }

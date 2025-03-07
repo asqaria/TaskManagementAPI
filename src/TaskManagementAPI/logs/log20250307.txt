@@ -292,3 +292,1366 @@ System.ArgumentOutOfRangeException: IDX10653: The encryption algorithm 'HS256' r
 2025-03-07 10:25:56 [Information] Execute: GetTasksQueryHandler.Handle
 2025-03-07 10:25:56 [Information] Found 11 tasks with status filter: null
 2025-03-07 10:25:56 [Information] HTTP "GET" "/api/v1/tasks" responded 200 in 6.7453 ms
+2025-03-07 11:25:26 [Warning] Failed to determine the https port for redirect.
+2025-03-07 11:25:26 [Warning] Failed to determine the https port for redirect.
+2025-03-07 11:25:26 [Information] HTTP "GET" "/api/v1/tasks" responded 401 in 19.6377 ms
+2025-03-07 11:25:33 [Information] Health check
+2025-03-07 11:25:33 [Information] HTTP "GET" "/api/v1/tasks/health" responded 200 in 9.6391 ms
+2025-03-07 11:25:34 [Information] Health check
+2025-03-07 11:25:34 [Information] HTTP "GET" "/api/v1/tasks/health" responded 200 in 0.9591 ms
+2025-03-07 12:01:23 [Warning] Failed to determine the https port for redirect.
+2025-03-07 12:01:23 [Warning] Failed to determine the https port for redirect.
+2025-03-07 12:01:24 [Information] HTTP "GET" "/api/v1/cache/ree" responded 404 in 156.8393 ms
+2025-03-07 12:01:45 [Information] HTTP "POST" "/api/v1/cache" responded 200 in 11.3465 ms
+2025-03-07 12:01:55 [Information] HTTP "GET" "/api/v1/cache/ree" responded 200 in 17.7827 ms
+2025-03-07 12:02:06 [Information] HTTP "GET" "/api/v1/cache/ree" responded 200 in 1.5916 ms
+2025-03-07 12:02:07 [Information] HTTP "GET" "/api/v1/cache/ree" responded 200 in 1.1043 ms
+2025-03-07 12:02:08 [Information] HTTP "GET" "/api/v1/cache/ree" responded 200 in 1.3415 ms
+2025-03-07 12:02:09 [Information] HTTP "GET" "/api/v1/cache/ree" responded 200 in 1.3626 ms
+2025-03-07 12:02:27 [Information] HTTP "GET" "/api/v1/cache/ree" responded 200 in 1.5514 ms
+2025-03-07 12:02:27 [Information] HTTP "GET" "/api/v1/cache/ree" responded 200 in 1.3956 ms
+2025-03-07 12:02:28 [Information] HTTP "GET" "/api/v1/cache/ree" responded 200 in 1.4491 ms
+2025-03-07 12:02:29 [Information] HTTP "GET" "/api/v1/cache/ree" responded 200 in 1.3053 ms
+2025-03-07 12:02:29 [Information] HTTP "GET" "/api/v1/cache/ree" responded 200 in 1.3064 ms
+2025-03-07 12:02:30 [Information] HTTP "GET" "/api/v1/cache/ree" responded 200 in 1.4289 ms
+2025-03-07 12:02:30 [Information] HTTP "GET" "/api/v1/cache/ree" responded 200 in 1.7847 ms
+2025-03-07 12:02:56 [Information] HTTP "GET" "/api/v1/cache/ree" responded 404 in 1.1859 ms
+2025-03-07 12:13:33 [Warning] Failed to determine the https port for redirect.
+2025-03-07 12:13:33 [Warning] Failed to determine the https port for redirect.
+2025-03-07 12:13:33 [Information] HTTP "GET" "/api/v1/tasks" responded 401 in 19.9850 ms
+2025-03-07 12:14:04 [Information] Login attempt for user: "admin"
+2025-03-07 12:14:04 [Information] Login successful for user: "admin"
+2025-03-07 12:14:04 [Information] HTTP "POST" "/api/v1/auth/login" responded 200 in 42.2771 ms
+2025-03-07 12:14:18 [Information] Login attempt for user: "admin"
+2025-03-07 12:14:18 [Information] Login successful for user: "admin"
+2025-03-07 12:14:18 [Information] HTTP "POST" "/api/v1/auth/login" responded 200 in 2.2470 ms
+2025-03-07 12:14:31 [Information] Getting tasks with status filter: "All"
+2025-03-07 12:14:31 [Information] Execute: GetTasksQueryHandler.Handle
+2025-03-07 12:14:31 [Information] No tasks found with status filter: "All"
+2025-03-07 12:14:31 [Information] HTTP "GET" "/api/v1/tasks" responded 404 in 164.7941 ms
+2025-03-07 12:15:47 [Warning] Failed to determine the https port for redirect.
+2025-03-07 12:15:47 [Warning] Failed to determine the https port for redirect.
+2025-03-07 12:15:47 [Information] Getting tasks with status filter: null
+2025-03-07 12:15:47 [Information] Execute: GetTasksQueryHandler.Handle
+2025-03-07 12:15:47 [Information] Found 11 tasks with status filter: null
+2025-03-07 12:15:47 [Information] HTTP "GET" "/api/v1/tasks" responded 200 in 214.7578 ms
+2025-03-07 12:15:52 [Information] Getting tasks with status filter: null
+2025-03-07 12:15:52 [Information] Execute: GetTasksQueryHandler.Handle
+2025-03-07 12:15:52 [Information] Found 11 tasks with status filter: null
+2025-03-07 12:15:52 [Information] HTTP "GET" "/api/v1/tasks" responded 200 in 7.3124 ms
+2025-03-07 12:16:09 [Information] HTTP "GET" "/api/v1/cache/All" responded 404 in 4.7978 ms
+2025-03-07 12:17:08 [Warning] Failed to determine the https port for redirect.
+2025-03-07 12:17:08 [Warning] Failed to determine the https port for redirect.
+2025-03-07 12:17:08 [Information] Getting tasks with status filter: null
+2025-03-07 12:17:08 [Information] Execute: GetTasksQueryHandler.Handle
+2025-03-07 12:17:08 [Information] Found 11 tasks with status filter: null
+2025-03-07 12:17:08 [Information] HTTP "GET" "/api/v1/tasks" responded 200 in 213.6095 ms
+2025-03-07 12:17:14 [Information] HTTP "GET" "/api/v1/cache/All" responded 200 in 16.2330 ms
+2025-03-07 12:17:19 [Information] Getting tasks with status filter: null
+2025-03-07 12:17:19 [Information] Found list in cache
+2025-03-07 12:17:19 [Information] Found 11 tasks with status filter: null
+2025-03-07 12:17:19 [Information] HTTP "GET" "/api/v1/tasks" responded 200 in 4.4258 ms
+2025-03-07 12:17:27 [Information] Getting tasks with status filter: null
+2025-03-07 12:17:27 [Information] Found list in cache
+2025-03-07 12:17:27 [Information] Found 11 tasks with status filter: null
+2025-03-07 12:17:27 [Information] HTTP "GET" "/api/v1/tasks" responded 200 in 4.3010 ms
+2025-03-07 12:17:28 [Information] Getting tasks with status filter: null
+2025-03-07 12:17:28 [Information] Found list in cache
+2025-03-07 12:17:28 [Information] Found 11 tasks with status filter: null
+2025-03-07 12:17:28 [Information] HTTP "GET" "/api/v1/tasks" responded 200 in 3.3635 ms
+2025-03-07 12:17:29 [Information] Getting tasks with status filter: null
+2025-03-07 12:17:29 [Information] Found list in cache
+2025-03-07 12:17:29 [Information] Found 11 tasks with status filter: null
+2025-03-07 12:17:29 [Information] HTTP "GET" "/api/v1/tasks" responded 200 in 2.8893 ms
+2025-03-07 12:23:53 [Warning] Failed to determine the https port for redirect.
+2025-03-07 12:23:53 [Warning] Failed to determine the https port for redirect.
+2025-03-07 12:23:53 [Information] Getting tasks with status filter: null
+2025-03-07 12:23:53 [Information] Attempting to retrieve key "All" from cache
+2025-03-07 12:23:53 [Information] Successfully retrieved key "All" from cache
+2025-03-07 12:23:54 [Information] Found 11 tasks with status filter: null
+2025-03-07 12:23:54 [Information] Successfully added key "All" to cache with expiry null
+2025-03-07 12:23:54 [Information] HTTP "GET" "/api/v1/tasks" responded 200 in 132.4254 ms
+2025-03-07 12:24:30 [Information] Attempting to retrieve key "All" from cache
+2025-03-07 12:24:30 [Information] Successfully retrieved key "All" from cache
+2025-03-07 12:24:30 [Information] HTTP "GET" "/api/v1/cache/All" responded 200 in 10.5839 ms
+2025-03-07 12:25:41 [Warning] Failed to determine the https port for redirect.
+2025-03-07 12:25:41 [Warning] Failed to determine the https port for redirect.
+2025-03-07 12:25:41 [Information] Attempting to retrieve key "All" from cache
+2025-03-07 12:25:41 [Information] Successfully retrieved key "All" from cache
+2025-03-07 12:25:41 [Information] HTTP "GET" "/api/v1/cache/All" responded 200 in 123.4147 ms
+2025-03-07 12:26:00 [Information] Getting tasks with status filter: null
+2025-03-07 12:26:00 [Information] Attempting to retrieve key "All" from cache
+2025-03-07 12:26:00 [Information] Successfully retrieved key "All" from cache
+2025-03-07 12:26:00 [Information] Found 11 tasks with status filter: null
+2025-03-07 12:26:00 [Information] Successfully added key "All" to cache with expiry 00:01:00
+2025-03-07 12:26:00 [Information] HTTP "GET" "/api/v1/tasks" responded 200 in 15.1184 ms
+2025-03-07 12:26:50 [Information] Getting tasks with status filter: null
+2025-03-07 12:26:50 [Information] Attempting to retrieve key "All" from cache
+2025-03-07 12:26:50 [Information] Successfully retrieved key "All" from cache
+2025-03-07 12:26:50 [Information] Found 11 tasks with status filter: null
+2025-03-07 12:26:50 [Information] Successfully added key "All" to cache with expiry 00:01:00
+2025-03-07 12:26:50 [Information] HTTP "GET" "/api/v1/tasks" responded 200 in 4.8394 ms
+2025-03-07 12:28:18 [Information] Getting tasks with status filter: null
+2025-03-07 12:28:18 [Information] Attempting to retrieve key "All" from cache
+2025-03-07 12:28:18 [Warning] Key "All" not found in cache
+2025-03-07 12:28:18 [Information] Execute: GetTasksQueryHandler.Handle
+2025-03-07 12:28:18 [Information] Found 11 tasks with status filter: null
+2025-03-07 12:28:18 [Information] Successfully added key "All" to cache with expiry 00:01:00
+2025-03-07 12:28:18 [Information] HTTP "GET" "/api/v1/tasks" responded 200 in 93.7061 ms
+2025-03-07 14:49:26 [Information] Start installing Hangfire SQL objects...
+2025-03-07 14:49:45 [Information] Start installing Hangfire SQL objects...
+2025-03-07 14:49:50 [Information] Start installing Hangfire SQL objects...
+2025-03-07 14:49:59 [Information] Start installing Hangfire SQL objects...
+2025-03-07 14:50:37 [Information] Start installing Hangfire SQL objects...
+2025-03-07 14:52:43 [Information] Start installing Hangfire SQL objects...
+2025-03-07 14:54:55 [Information] Start installing Hangfire SQL objects...
+2025-03-07 14:55:20 [Information] Start installing Hangfire SQL objects...
+2025-03-07 14:59:22 [Information] Start installing Hangfire SQL objects...
+2025-03-07 14:59:22 [Information] Hangfire SQL objects installed.
+2025-03-07 14:59:22 [Information] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: localhost, DB: HangfireDB, Schema: hangfire'
+2025-03-07 14:59:22 [Information] Using the following options for PostgreSQL job storage:
+2025-03-07 14:59:22 [Information]     Queue poll interval: 00:00:15.
+2025-03-07 14:59:22 [Information]     Invisibility timeout: 00:30:00.
+2025-03-07 14:59:22 [Information]     Use sliding invisibility timeout: False.
+2025-03-07 14:59:22 [Information] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-03-07 14:59:22 [Information] Server desktop-turrar0:36088:d6d5c432 successfully announced in 5.9198 ms
+2025-03-07 14:59:22 [Information] Server desktop-turrar0:36088:d6d5c432 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-03-07 14:59:22 [Information] Server desktop-turrar0:36088:d6d5c432 all the dispatchers started
+2025-03-07 15:00:01 [Warning] Failed to determine the https port for redirect.
+2025-03-07 15:00:01 [Warning] Failed to determine the https port for redirect.
+2025-03-07 15:00:01 [Information] Health check
+2025-03-07 15:00:01 [Information] HTTP "GET" "/api/v1/tasks/health" responded 200 in 109.6278 ms
+2025-03-07 15:00:18 [Information] Server desktop-turrar0:36088:d6d5c432 caught stopping signal...
+2025-03-07 15:00:18 [Information] Server desktop-turrar0:36088:d6d5c432 All dispatchers stopped
+2025-03-07 15:00:18 [Information] Server desktop-turrar0:36088:d6d5c432 successfully reported itself as stopped in 2.8926 ms
+2025-03-07 15:00:18 [Information] Server desktop-turrar0:36088:d6d5c432 has been stopped in total 7.6708 ms
+2025-03-07 15:16:39 [Information] Start installing Hangfire SQL objects...
+2025-03-07 15:16:39 [Information] Hangfire SQL objects installed.
+2025-03-07 15:16:39 [Information] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: localhost, DB: HangfireDB, Schema: hangfire'
+2025-03-07 15:16:39 [Information] Using the following options for PostgreSQL job storage:
+2025-03-07 15:16:39 [Information]     Queue poll interval: 00:00:15.
+2025-03-07 15:16:39 [Information]     Invisibility timeout: 00:30:00.
+2025-03-07 15:16:39 [Information]     Use sliding invisibility timeout: False.
+2025-03-07 15:16:39 [Information] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-03-07 15:16:39 [Information] Server desktop-turrar0:35356:1c60cf81 successfully announced in 5.86 ms
+2025-03-07 15:16:39 [Information] Server desktop-turrar0:35356:1c60cf81 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-03-07 15:16:39 [Information] Server desktop-turrar0:35356:1c60cf81 all the dispatchers started
+2025-03-07 15:16:39 [Information] Background job: START
+2025-03-07 15:16:39 [Information] Removed -1 record(s)
+2025-03-07 15:16:39 [Information] Background job: END
+2025-03-07 15:16:49 [Information] Server desktop-turrar0:35356:1c60cf81 caught stopping signal...
+2025-03-07 15:16:49 [Information] Server desktop-turrar0:35356:1c60cf81 All dispatchers stopped
+2025-03-07 15:16:49 [Information] Server desktop-turrar0:35356:1c60cf81 successfully reported itself as stopped in 3.2678 ms
+2025-03-07 15:16:49 [Information] Server desktop-turrar0:35356:1c60cf81 has been stopped in total 7.5277 ms
+2025-03-07 15:21:32 [Information] Start installing Hangfire SQL objects...
+2025-03-07 15:21:32 [Information] Hangfire SQL objects installed.
+2025-03-07 15:21:33 [Information] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: localhost, DB: HangfireDB, Schema: hangfire'
+2025-03-07 15:21:33 [Information] Using the following options for PostgreSQL job storage:
+2025-03-07 15:21:33 [Information]     Queue poll interval: 00:00:15.
+2025-03-07 15:21:33 [Information]     Invisibility timeout: 00:30:00.
+2025-03-07 15:21:33 [Information]     Use sliding invisibility timeout: False.
+2025-03-07 15:21:33 [Information] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-03-07 15:21:33 [Information] Server desktop-turrar0:49724:c2c57313 successfully announced in 6.1519 ms
+2025-03-07 15:21:33 [Information] Server desktop-turrar0:49724:c2c57313 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-03-07 15:21:33 [Information] Server desktop-turrar0:49724:c2c57313 all the dispatchers started
+2025-03-07 15:21:33 [Information] Background job: START
+2025-03-07 15:21:33 [Information] Removed 0 record(s)
+2025-03-07 15:21:33 [Information] Background job: END
+2025-03-07 15:23:35 [Information] Server desktop-turrar0:49724:c2c57313 caught stopping signal...
+2025-03-07 15:23:35 [Information] Server desktop-turrar0:49724:c2c57313 All dispatchers stopped
+2025-03-07 15:23:35 [Information] Server desktop-turrar0:49724:c2c57313 successfully reported itself as stopped in 1.7132 ms
+2025-03-07 15:23:35 [Information] Server desktop-turrar0:49724:c2c57313 has been stopped in total 4.9239 ms
+2025-03-07 15:23:43 [Information] Start installing Hangfire SQL objects...
+2025-03-07 15:23:44 [Information] Hangfire SQL objects installed.
+2025-03-07 15:23:44 [Information] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: localhost, DB: HangfireDB, Schema: hangfire'
+2025-03-07 15:23:44 [Information] Using the following options for PostgreSQL job storage:
+2025-03-07 15:23:44 [Information]     Queue poll interval: 00:00:15.
+2025-03-07 15:23:44 [Information]     Invisibility timeout: 00:30:00.
+2025-03-07 15:23:44 [Information]     Use sliding invisibility timeout: False.
+2025-03-07 15:23:44 [Information] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-03-07 15:23:44 [Information] Server desktop-turrar0:50236:fa3b4243 successfully announced in 5.9724 ms
+2025-03-07 15:23:44 [Information] Server desktop-turrar0:50236:fa3b4243 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-03-07 15:23:44 [Information] Server desktop-turrar0:50236:fa3b4243 all the dispatchers started
+2025-03-07 15:24:14 [Information] Background job: START
+2025-03-07 15:24:14 [Information] Removed 0 record(s)
+2025-03-07 15:24:14 [Information] Background job: END
+2025-03-07 15:24:45 [Warning] Failed to determine the https port for redirect.
+2025-03-07 15:24:45 [Warning] Failed to determine the https port for redirect.
+2025-03-07 15:24:45 [Information] Health check
+2025-03-07 15:24:45 [Information] HTTP "GET" "/api/v1/tasks/health" responded 200 in 52.0722 ms
+2025-03-07 15:25:14 [Information] Background job: START
+2025-03-07 15:25:14 [Information] Removed 0 record(s)
+2025-03-07 15:25:14 [Information] Background job: END
+2025-03-07 15:26:14 [Information] Background job: START
+2025-03-07 15:26:14 [Information] Removed 1 record(s)
+2025-03-07 15:26:14 [Information] Background job: END
+2025-03-07 15:26:59 [Information] Server desktop-turrar0:50236:fa3b4243 caught stopping signal...
+2025-03-07 15:26:59 [Information] Server desktop-turrar0:50236:fa3b4243 All dispatchers stopped
+2025-03-07 15:26:59 [Information] Server desktop-turrar0:50236:fa3b4243 successfully reported itself as stopped in 2.0149 ms
+2025-03-07 15:26:59 [Information] Server desktop-turrar0:50236:fa3b4243 has been stopped in total 4.9216 ms
+2025-03-07 15:27:45 [Information] Start installing Hangfire SQL objects...
+2025-03-07 15:27:45 [Information] Hangfire SQL objects installed.
+2025-03-07 15:27:45 [Information] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: localhost, DB: HangfireDB, Schema: hangfire'
+2025-03-07 15:27:45 [Information] Using the following options for PostgreSQL job storage:
+2025-03-07 15:27:45 [Information]     Queue poll interval: 00:00:15.
+2025-03-07 15:27:45 [Information]     Invisibility timeout: 00:30:00.
+2025-03-07 15:27:45 [Information]     Use sliding invisibility timeout: False.
+2025-03-07 15:27:45 [Information] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-03-07 15:27:45 [Information] Server desktop-turrar0:35904:b1df39fe successfully announced in 5.9276 ms
+2025-03-07 15:27:45 [Information] Server desktop-turrar0:35904:b1df39fe is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-03-07 15:27:45 [Information] Server desktop-turrar0:35904:b1df39fe all the dispatchers started
+2025-03-07 15:27:45 [Warning] Recurring job 'my_rec_job' can't be scheduled due to an error and will be retried in 00:00:15.
+Hangfire.Common.JobLoadException: Could not load the job. See inner exception for the details.
+ ---> System.TypeLoadException: Could not load type 'TaskManagementAPI.Services.IJobService' from assembly 'TaskManagementAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Reflection.RuntimeAssembly.GetTypeCore(String typeName, ReadOnlySpan`1 nestedTypeNames, Boolean throwOnError, Boolean ignoreCase)
+   at System.Reflection.TypeNameParser.GetType(String typeName, ReadOnlySpan`1 nestedTypeNames, String assemblyNameIfAny)
+   at System.Reflection.TypeNameParser.Parse()
+   at System.Reflection.TypeNameParser.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase, Assembly topLevelAssembly)
+   at Hangfire.Common.TypeHelper.TypeResolver(Assembly assembly, String typeName, Boolean ignoreCase) in C:\projects\hangfire-525\src\Hangfire.Core\Common\TypeHelper.cs:line 251
+   at System.Reflection.TypeNameParser.GetType(String typeName, ReadOnlySpan`1 nestedTypeNames, String assemblyNameIfAny)
+   at System.Reflection.TypeNameParser.Parse()
+   at System.Reflection.TypeNameParser.GetType(String typeName, Func`2 assemblyResolver, Func`4 typeResolver, Assembly requestingAssembly, Boolean throwOnError, Boolean ignoreCase, Boolean extensibleParser)
+   at System.Type.GetType(String typeName, Func`2 assemblyResolver, Func`4 typeResolver, Boolean throwOnError)
+   at Hangfire.Common.TypeHelper.<>c.<DefaultTypeResolver>b__20_0(String name) in C:\projects\hangfire-525\src\Hangfire.Core\Common\TypeHelper.cs:line 83
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Hangfire.Common.TypeHelper.DefaultTypeResolver(String typeName) in C:\projects\hangfire-525\src\Hangfire.Core\Common\TypeHelper.cs:line 75
+   at Hangfire.Storage.InvocationData.<>c.<CachedDeserializeMethod>b__33_0(MethodDeserializerCacheKey key) in C:\projects\hangfire-525\src\Hangfire.Core\Storage\InvocationData.cs:line 339
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Hangfire.Storage.InvocationData.CachedDeserializeMethod(Func`2 typeResolver, String typeName, String methodName, String parameterTypes, Type& type, MethodInfo& methodInfo) in C:\projects\hangfire-525\src\Hangfire.Core\Storage\InvocationData.cs:line 335
+   at Hangfire.Storage.InvocationData.DeserializeJob() in C:\projects\hangfire-525\src\Hangfire.Core\Storage\InvocationData.cs:line 100
+   --- End of inner exception stack trace ---
+   at Hangfire.Storage.InvocationData.DeserializeJob() in C:\projects\hangfire-525\src\Hangfire.Core\Storage\InvocationData.cs:line 118
+   at Hangfire.RecurringJobExtensions.TriggerRecurringJob(IBackgroundJobFactory factory, JobStorage storage, IStorageConnection connection, IProfiler profiler, RecurringJobEntity recurringJob, DateTime now) in C:\projects\hangfire-525\src\Hangfire.Core\RecurringJobExtensions.cs:line 115
+   at Hangfire.Server.RecurringJobScheduler.ScheduleRecurringJob(BackgroundProcessContext context, IStorageConnection connection, String recurringJobId, RecurringJobEntity recurringJob, DateTime now) in C:\projects\hangfire-525\src\Hangfire.Core\Server\RecurringJobScheduler.cs:line 333
+2025-03-07 15:28:00 [Warning] Recurring job 'my_rec_job' can't be scheduled due to an error and will be retried in 00:00:15.
+Hangfire.Common.JobLoadException: Could not load the job. See inner exception for the details.
+ ---> System.TypeLoadException: Could not load type 'TaskManagementAPI.Services.IJobService' from assembly 'TaskManagementAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Reflection.RuntimeAssembly.GetTypeCore(String typeName, ReadOnlySpan`1 nestedTypeNames, Boolean throwOnError, Boolean ignoreCase)
+   at System.Reflection.TypeNameParser.GetType(String typeName, ReadOnlySpan`1 nestedTypeNames, String assemblyNameIfAny)
+   at System.Reflection.TypeNameParser.Parse()
+   at System.Reflection.TypeNameParser.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase, Assembly topLevelAssembly)
+   at Hangfire.Common.TypeHelper.TypeResolver(Assembly assembly, String typeName, Boolean ignoreCase) in C:\projects\hangfire-525\src\Hangfire.Core\Common\TypeHelper.cs:line 251
+   at System.Reflection.TypeNameParser.GetType(String typeName, ReadOnlySpan`1 nestedTypeNames, String assemblyNameIfAny)
+   at System.Reflection.TypeNameParser.Parse()
+   at System.Reflection.TypeNameParser.GetType(String typeName, Func`2 assemblyResolver, Func`4 typeResolver, Assembly requestingAssembly, Boolean throwOnError, Boolean ignoreCase, Boolean extensibleParser)
+   at System.Type.GetType(String typeName, Func`2 assemblyResolver, Func`4 typeResolver, Boolean throwOnError)
+   at Hangfire.Common.TypeHelper.<>c.<DefaultTypeResolver>b__20_0(String name) in C:\projects\hangfire-525\src\Hangfire.Core\Common\TypeHelper.cs:line 83
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Hangfire.Common.TypeHelper.DefaultTypeResolver(String typeName) in C:\projects\hangfire-525\src\Hangfire.Core\Common\TypeHelper.cs:line 75
+   at Hangfire.Storage.InvocationData.<>c.<CachedDeserializeMethod>b__33_0(MethodDeserializerCacheKey key) in C:\projects\hangfire-525\src\Hangfire.Core\Storage\InvocationData.cs:line 339
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Hangfire.Storage.InvocationData.CachedDeserializeMethod(Func`2 typeResolver, String typeName, String methodName, String parameterTypes, Type& type, MethodInfo& methodInfo) in C:\projects\hangfire-525\src\Hangfire.Core\Storage\InvocationData.cs:line 335
+   at Hangfire.Storage.InvocationData.DeserializeJob() in C:\projects\hangfire-525\src\Hangfire.Core\Storage\InvocationData.cs:line 100
+   --- End of inner exception stack trace ---
+   at Hangfire.Storage.InvocationData.DeserializeJob() in C:\projects\hangfire-525\src\Hangfire.Core\Storage\InvocationData.cs:line 118
+   at Hangfire.RecurringJobExtensions.TriggerRecurringJob(IBackgroundJobFactory factory, JobStorage storage, IStorageConnection connection, IProfiler profiler, RecurringJobEntity recurringJob, DateTime now) in C:\projects\hangfire-525\src\Hangfire.Core\RecurringJobExtensions.cs:line 115
+   at Hangfire.Server.RecurringJobScheduler.ScheduleRecurringJob(BackgroundProcessContext context, IStorageConnection connection, String recurringJobId, RecurringJobEntity recurringJob, DateTime now) in C:\projects\hangfire-525\src\Hangfire.Core\Server\RecurringJobScheduler.cs:line 333
+2025-03-07 15:28:00 [Information] Background job: START
+2025-03-07 15:28:00 [Information] Removed 0 record(s)
+2025-03-07 15:28:00 [Information] Background job: END
+2025-03-07 15:28:09 [Information] Server desktop-turrar0:35904:b1df39fe caught stopping signal...
+2025-03-07 15:28:09 [Information] Server desktop-turrar0:35904:b1df39fe All dispatchers stopped
+2025-03-07 15:28:09 [Information] Server desktop-turrar0:35904:b1df39fe successfully reported itself as stopped in 2.9417 ms
+2025-03-07 15:28:09 [Information] Server desktop-turrar0:35904:b1df39fe has been stopped in total 6.1944 ms
+2025-03-07 15:30:06 [Information] Start installing Hangfire SQL objects...
+2025-03-07 15:30:06 [Information] Hangfire SQL objects installed.
+2025-03-07 15:30:06 [Information] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: localhost, DB: HangfireDB, Schema: hangfire'
+2025-03-07 15:30:06 [Information] Using the following options for PostgreSQL job storage:
+2025-03-07 15:30:06 [Information]     Queue poll interval: 00:00:15.
+2025-03-07 15:30:06 [Information]     Invisibility timeout: 00:30:00.
+2025-03-07 15:30:06 [Information]     Use sliding invisibility timeout: False.
+2025-03-07 15:30:06 [Information] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-03-07 15:30:06 [Information] Server desktop-turrar0:54048:2399f3d9 successfully announced in 5.7667 ms
+2025-03-07 15:30:06 [Information] Server desktop-turrar0:54048:2399f3d9 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-03-07 15:30:06 [Information] Server desktop-turrar0:54048:2399f3d9 all the dispatchers started
+2025-03-07 15:30:06 [Warning] Recurring job 'my_rec_job' can't be scheduled due to an error and will be retried in 00:00:15.
+Hangfire.Common.JobLoadException: Could not load the job. See inner exception for the details.
+ ---> System.TypeLoadException: Could not load type 'TaskManagementAPI.Services.IJobService' from assembly 'TaskManagementAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Reflection.RuntimeAssembly.GetTypeCore(String typeName, ReadOnlySpan`1 nestedTypeNames, Boolean throwOnError, Boolean ignoreCase)
+   at System.Reflection.TypeNameParser.GetType(String typeName, ReadOnlySpan`1 nestedTypeNames, String assemblyNameIfAny)
+   at System.Reflection.TypeNameParser.Parse()
+   at System.Reflection.TypeNameParser.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase, Assembly topLevelAssembly)
+   at Hangfire.Common.TypeHelper.TypeResolver(Assembly assembly, String typeName, Boolean ignoreCase) in C:\projects\hangfire-525\src\Hangfire.Core\Common\TypeHelper.cs:line 251
+   at System.Reflection.TypeNameParser.GetType(String typeName, ReadOnlySpan`1 nestedTypeNames, String assemblyNameIfAny)
+   at System.Reflection.TypeNameParser.Parse()
+   at System.Reflection.TypeNameParser.GetType(String typeName, Func`2 assemblyResolver, Func`4 typeResolver, Assembly requestingAssembly, Boolean throwOnError, Boolean ignoreCase, Boolean extensibleParser)
+   at System.Type.GetType(String typeName, Func`2 assemblyResolver, Func`4 typeResolver, Boolean throwOnError)
+   at Hangfire.Common.TypeHelper.<>c.<DefaultTypeResolver>b__20_0(String name) in C:\projects\hangfire-525\src\Hangfire.Core\Common\TypeHelper.cs:line 83
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Hangfire.Common.TypeHelper.DefaultTypeResolver(String typeName) in C:\projects\hangfire-525\src\Hangfire.Core\Common\TypeHelper.cs:line 75
+   at Hangfire.Storage.InvocationData.<>c.<CachedDeserializeMethod>b__33_0(MethodDeserializerCacheKey key) in C:\projects\hangfire-525\src\Hangfire.Core\Storage\InvocationData.cs:line 339
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Hangfire.Storage.InvocationData.CachedDeserializeMethod(Func`2 typeResolver, String typeName, String methodName, String parameterTypes, Type& type, MethodInfo& methodInfo) in C:\projects\hangfire-525\src\Hangfire.Core\Storage\InvocationData.cs:line 335
+   at Hangfire.Storage.InvocationData.DeserializeJob() in C:\projects\hangfire-525\src\Hangfire.Core\Storage\InvocationData.cs:line 100
+   --- End of inner exception stack trace ---
+   at Hangfire.Storage.InvocationData.DeserializeJob() in C:\projects\hangfire-525\src\Hangfire.Core\Storage\InvocationData.cs:line 118
+   at Hangfire.RecurringJobExtensions.TriggerRecurringJob(IBackgroundJobFactory factory, JobStorage storage, IStorageConnection connection, IProfiler profiler, RecurringJobEntity recurringJob, DateTime now) in C:\projects\hangfire-525\src\Hangfire.Core\RecurringJobExtensions.cs:line 115
+   at Hangfire.Server.RecurringJobScheduler.ScheduleRecurringJob(BackgroundProcessContext context, IStorageConnection connection, String recurringJobId, RecurringJobEntity recurringJob, DateTime now) in C:\projects\hangfire-525\src\Hangfire.Core\Server\RecurringJobScheduler.cs:line 333
+2025-03-07 15:30:06 [Information] Background job: START
+2025-03-07 15:30:06 [Information] Removed 0 record(s)
+2025-03-07 15:30:06 [Information] Background job: END
+2025-03-07 15:30:21 [Warning] Recurring job 'my_rec_job' can't be scheduled due to an error and will be retried in 00:00:15.
+Hangfire.Common.JobLoadException: Could not load the job. See inner exception for the details.
+ ---> System.TypeLoadException: Could not load type 'TaskManagementAPI.Services.IJobService' from assembly 'TaskManagementAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Reflection.RuntimeAssembly.GetTypeCore(String typeName, ReadOnlySpan`1 nestedTypeNames, Boolean throwOnError, Boolean ignoreCase)
+   at System.Reflection.TypeNameParser.GetType(String typeName, ReadOnlySpan`1 nestedTypeNames, String assemblyNameIfAny)
+   at System.Reflection.TypeNameParser.Parse()
+   at System.Reflection.TypeNameParser.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase, Assembly topLevelAssembly)
+   at Hangfire.Common.TypeHelper.TypeResolver(Assembly assembly, String typeName, Boolean ignoreCase) in C:\projects\hangfire-525\src\Hangfire.Core\Common\TypeHelper.cs:line 251
+   at System.Reflection.TypeNameParser.GetType(String typeName, ReadOnlySpan`1 nestedTypeNames, String assemblyNameIfAny)
+   at System.Reflection.TypeNameParser.Parse()
+   at System.Reflection.TypeNameParser.GetType(String typeName, Func`2 assemblyResolver, Func`4 typeResolver, Assembly requestingAssembly, Boolean throwOnError, Boolean ignoreCase, Boolean extensibleParser)
+   at System.Type.GetType(String typeName, Func`2 assemblyResolver, Func`4 typeResolver, Boolean throwOnError)
+   at Hangfire.Common.TypeHelper.<>c.<DefaultTypeResolver>b__20_0(String name) in C:\projects\hangfire-525\src\Hangfire.Core\Common\TypeHelper.cs:line 83
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Hangfire.Common.TypeHelper.DefaultTypeResolver(String typeName) in C:\projects\hangfire-525\src\Hangfire.Core\Common\TypeHelper.cs:line 75
+   at Hangfire.Storage.InvocationData.<>c.<CachedDeserializeMethod>b__33_0(MethodDeserializerCacheKey key) in C:\projects\hangfire-525\src\Hangfire.Core\Storage\InvocationData.cs:line 339
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Hangfire.Storage.InvocationData.CachedDeserializeMethod(Func`2 typeResolver, String typeName, String methodName, String parameterTypes, Type& type, MethodInfo& methodInfo) in C:\projects\hangfire-525\src\Hangfire.Core\Storage\InvocationData.cs:line 335
+   at Hangfire.Storage.InvocationData.DeserializeJob() in C:\projects\hangfire-525\src\Hangfire.Core\Storage\InvocationData.cs:line 100
+   --- End of inner exception stack trace ---
+   at Hangfire.Storage.InvocationData.DeserializeJob() in C:\projects\hangfire-525\src\Hangfire.Core\Storage\InvocationData.cs:line 118
+   at Hangfire.RecurringJobExtensions.TriggerRecurringJob(IBackgroundJobFactory factory, JobStorage storage, IStorageConnection connection, IProfiler profiler, RecurringJobEntity recurringJob, DateTime now) in C:\projects\hangfire-525\src\Hangfire.Core\RecurringJobExtensions.cs:line 115
+   at Hangfire.Server.RecurringJobScheduler.ScheduleRecurringJob(BackgroundProcessContext context, IStorageConnection connection, String recurringJobId, RecurringJobEntity recurringJob, DateTime now) in C:\projects\hangfire-525\src\Hangfire.Core\Server\RecurringJobScheduler.cs:line 333
+2025-03-07 15:30:22 [Information] Server desktop-turrar0:54048:2399f3d9 caught stopping signal...
+2025-03-07 15:30:22 [Information] Server desktop-turrar0:54048:2399f3d9 All dispatchers stopped
+2025-03-07 15:30:22 [Information] Server desktop-turrar0:54048:2399f3d9 successfully reported itself as stopped in 2.0665 ms
+2025-03-07 15:30:22 [Information] Server desktop-turrar0:54048:2399f3d9 has been stopped in total 6.1431 ms
+2025-03-07 15:30:57 [Information] Start installing Hangfire SQL objects...
+2025-03-07 15:30:57 [Information] Hangfire SQL objects installed.
+2025-03-07 15:30:57 [Information] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: localhost, DB: HangfireDB, Schema: hangfire'
+2025-03-07 15:30:57 [Information] Using the following options for PostgreSQL job storage:
+2025-03-07 15:30:57 [Information]     Queue poll interval: 00:00:15.
+2025-03-07 15:30:57 [Information]     Invisibility timeout: 00:30:00.
+2025-03-07 15:30:57 [Information]     Use sliding invisibility timeout: False.
+2025-03-07 15:30:57 [Information] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-03-07 15:30:57 [Information] Server desktop-turrar0:30976:e4caf0da successfully announced in 6.418 ms
+2025-03-07 15:30:57 [Information] Server desktop-turrar0:30976:e4caf0da is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-03-07 15:30:57 [Information] Server desktop-turrar0:30976:e4caf0da all the dispatchers started
+2025-03-07 15:30:57 [Warning] Recurring job 'my_rec_job' can't be scheduled due to an error and will be retried in 00:00:15.
+Hangfire.Common.JobLoadException: Could not load the job. See inner exception for the details.
+ ---> System.TypeLoadException: Could not load type 'TaskManagementAPI.Services.IJobService' from assembly 'TaskManagementAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Reflection.RuntimeAssembly.GetTypeCore(String typeName, ReadOnlySpan`1 nestedTypeNames, Boolean throwOnError, Boolean ignoreCase)
+   at System.Reflection.TypeNameParser.GetType(String typeName, ReadOnlySpan`1 nestedTypeNames, String assemblyNameIfAny)
+   at System.Reflection.TypeNameParser.Parse()
+   at System.Reflection.TypeNameParser.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase, Assembly topLevelAssembly)
+   at Hangfire.Common.TypeHelper.TypeResolver(Assembly assembly, String typeName, Boolean ignoreCase) in C:\projects\hangfire-525\src\Hangfire.Core\Common\TypeHelper.cs:line 251
+   at System.Reflection.TypeNameParser.GetType(String typeName, ReadOnlySpan`1 nestedTypeNames, String assemblyNameIfAny)
+   at System.Reflection.TypeNameParser.Parse()
+   at System.Reflection.TypeNameParser.GetType(String typeName, Func`2 assemblyResolver, Func`4 typeResolver, Assembly requestingAssembly, Boolean throwOnError, Boolean ignoreCase, Boolean extensibleParser)
+   at System.Type.GetType(String typeName, Func`2 assemblyResolver, Func`4 typeResolver, Boolean throwOnError)
+   at Hangfire.Common.TypeHelper.<>c.<DefaultTypeResolver>b__20_0(String name) in C:\projects\hangfire-525\src\Hangfire.Core\Common\TypeHelper.cs:line 83
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Hangfire.Common.TypeHelper.DefaultTypeResolver(String typeName) in C:\projects\hangfire-525\src\Hangfire.Core\Common\TypeHelper.cs:line 75
+   at Hangfire.Storage.InvocationData.<>c.<CachedDeserializeMethod>b__33_0(MethodDeserializerCacheKey key) in C:\projects\hangfire-525\src\Hangfire.Core\Storage\InvocationData.cs:line 339
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Hangfire.Storage.InvocationData.CachedDeserializeMethod(Func`2 typeResolver, String typeName, String methodName, String parameterTypes, Type& type, MethodInfo& methodInfo) in C:\projects\hangfire-525\src\Hangfire.Core\Storage\InvocationData.cs:line 335
+   at Hangfire.Storage.InvocationData.DeserializeJob() in C:\projects\hangfire-525\src\Hangfire.Core\Storage\InvocationData.cs:line 100
+   --- End of inner exception stack trace ---
+   at Hangfire.Storage.InvocationData.DeserializeJob() in C:\projects\hangfire-525\src\Hangfire.Core\Storage\InvocationData.cs:line 118
+   at Hangfire.RecurringJobExtensions.TriggerRecurringJob(IBackgroundJobFactory factory, JobStorage storage, IStorageConnection connection, IProfiler profiler, RecurringJobEntity recurringJob, DateTime now) in C:\projects\hangfire-525\src\Hangfire.Core\RecurringJobExtensions.cs:line 115
+   at Hangfire.Server.RecurringJobScheduler.ScheduleRecurringJob(BackgroundProcessContext context, IStorageConnection connection, String recurringJobId, RecurringJobEntity recurringJob, DateTime now) in C:\projects\hangfire-525\src\Hangfire.Core\Server\RecurringJobScheduler.cs:line 333
+2025-03-07 15:31:12 [Error] Recurring job 'my_rec_job' can't be scheduled due to an error and will be disabled.
+Hangfire.Common.JobLoadException: Could not load the job. See inner exception for the details.
+ ---> System.TypeLoadException: Could not load type 'TaskManagementAPI.Services.IJobService' from assembly 'TaskManagementAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Reflection.RuntimeAssembly.GetTypeCore(String typeName, ReadOnlySpan`1 nestedTypeNames, Boolean throwOnError, Boolean ignoreCase)
+   at System.Reflection.TypeNameParser.GetType(String typeName, ReadOnlySpan`1 nestedTypeNames, String assemblyNameIfAny)
+   at System.Reflection.TypeNameParser.Parse()
+   at System.Reflection.TypeNameParser.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase, Assembly topLevelAssembly)
+   at Hangfire.Common.TypeHelper.TypeResolver(Assembly assembly, String typeName, Boolean ignoreCase) in C:\projects\hangfire-525\src\Hangfire.Core\Common\TypeHelper.cs:line 251
+   at System.Reflection.TypeNameParser.GetType(String typeName, ReadOnlySpan`1 nestedTypeNames, String assemblyNameIfAny)
+   at System.Reflection.TypeNameParser.Parse()
+   at System.Reflection.TypeNameParser.GetType(String typeName, Func`2 assemblyResolver, Func`4 typeResolver, Assembly requestingAssembly, Boolean throwOnError, Boolean ignoreCase, Boolean extensibleParser)
+   at System.Type.GetType(String typeName, Func`2 assemblyResolver, Func`4 typeResolver, Boolean throwOnError)
+   at Hangfire.Common.TypeHelper.<>c.<DefaultTypeResolver>b__20_0(String name) in C:\projects\hangfire-525\src\Hangfire.Core\Common\TypeHelper.cs:line 83
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Hangfire.Common.TypeHelper.DefaultTypeResolver(String typeName) in C:\projects\hangfire-525\src\Hangfire.Core\Common\TypeHelper.cs:line 75
+   at Hangfire.Storage.InvocationData.<>c.<CachedDeserializeMethod>b__33_0(MethodDeserializerCacheKey key) in C:\projects\hangfire-525\src\Hangfire.Core\Storage\InvocationData.cs:line 339
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Hangfire.Storage.InvocationData.CachedDeserializeMethod(Func`2 typeResolver, String typeName, String methodName, String parameterTypes, Type& type, MethodInfo& methodInfo) in C:\projects\hangfire-525\src\Hangfire.Core\Storage\InvocationData.cs:line 335
+   at Hangfire.Storage.InvocationData.DeserializeJob() in C:\projects\hangfire-525\src\Hangfire.Core\Storage\InvocationData.cs:line 100
+   --- End of inner exception stack trace ---
+   at Hangfire.Storage.InvocationData.DeserializeJob() in C:\projects\hangfire-525\src\Hangfire.Core\Storage\InvocationData.cs:line 118
+   at Hangfire.RecurringJobExtensions.TriggerRecurringJob(IBackgroundJobFactory factory, JobStorage storage, IStorageConnection connection, IProfiler profiler, RecurringJobEntity recurringJob, DateTime now) in C:\projects\hangfire-525\src\Hangfire.Core\RecurringJobExtensions.cs:line 115
+   at Hangfire.Server.RecurringJobScheduler.ScheduleRecurringJob(BackgroundProcessContext context, IStorageConnection connection, String recurringJobId, RecurringJobEntity recurringJob, DateTime now) in C:\projects\hangfire-525\src\Hangfire.Core\Server\RecurringJobScheduler.cs:line 333
+2025-03-07 15:31:12 [Information] Background job: START
+2025-03-07 15:31:12 [Information] Removed 0 record(s)
+2025-03-07 15:31:12 [Information] Background job: END
+2025-03-07 15:31:35 [Information] Server desktop-turrar0:30976:e4caf0da caught stopping signal...
+2025-03-07 15:31:35 [Information] Server desktop-turrar0:30976:e4caf0da All dispatchers stopped
+2025-03-07 15:31:35 [Information] Server desktop-turrar0:30976:e4caf0da successfully reported itself as stopped in 2.0641 ms
+2025-03-07 15:31:35 [Information] Server desktop-turrar0:30976:e4caf0da has been stopped in total 5.4488 ms
+2025-03-07 15:31:45 [Information] Start installing Hangfire SQL objects...
+2025-03-07 15:31:45 [Information] Hangfire SQL objects installed.
+2025-03-07 15:31:45 [Information] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: localhost, DB: HangfireDB, Schema: hangfire'
+2025-03-07 15:31:45 [Information] Using the following options for PostgreSQL job storage:
+2025-03-07 15:31:45 [Information]     Queue poll interval: 00:00:15.
+2025-03-07 15:31:45 [Information]     Invisibility timeout: 00:30:00.
+2025-03-07 15:31:45 [Information]     Use sliding invisibility timeout: False.
+2025-03-07 15:31:45 [Information] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-03-07 15:31:45 [Information] Server desktop-turrar0:46188:3b2ca391 successfully announced in 6.0878 ms
+2025-03-07 15:31:45 [Information] Server desktop-turrar0:46188:3b2ca391 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-03-07 15:31:45 [Information] Server desktop-turrar0:46188:3b2ca391 all the dispatchers started
+2025-03-07 15:32:00 [Information] Background job: START
+2025-03-07 15:32:00 [Information] Removed 0 record(s)
+2025-03-07 15:32:00 [Information] Background job: END
+2025-03-07 15:33:00 [Information] Background job: START
+2025-03-07 15:33:00 [Information] Removed 0 record(s)
+2025-03-07 15:33:00 [Information] Background job: END
+2025-03-07 15:33:30 [Information] Server desktop-turrar0:46188:3b2ca391 caught stopping signal...
+2025-03-07 15:33:30 [Information] Server desktop-turrar0:46188:3b2ca391 All dispatchers stopped
+2025-03-07 15:33:30 [Information] Server desktop-turrar0:46188:3b2ca391 successfully reported itself as stopped in 2.0521 ms
+2025-03-07 15:33:30 [Information] Server desktop-turrar0:46188:3b2ca391 has been stopped in total 4.1947 ms
+2025-03-07 15:36:55 [Information] Start installing Hangfire SQL objects...
+2025-03-07 15:36:55 [Information] Hangfire SQL objects installed.
+2025-03-07 15:36:55 [Information] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: localhost, DB: HangfireDB, Schema: hangfire'
+2025-03-07 15:36:55 [Information] Using the following options for PostgreSQL job storage:
+2025-03-07 15:36:55 [Information]     Queue poll interval: 00:00:15.
+2025-03-07 15:36:55 [Information]     Invisibility timeout: 00:30:00.
+2025-03-07 15:36:55 [Information]     Use sliding invisibility timeout: False.
+2025-03-07 15:36:55 [Information] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-03-07 15:36:56 [Information] Server desktop-turrar0:45932:34f8e847 successfully announced in 6.2977 ms
+2025-03-07 15:36:56 [Information] Server desktop-turrar0:45932:34f8e847 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-03-07 15:36:56 [Information] Server desktop-turrar0:45932:34f8e847 all the dispatchers started
+2025-03-07 15:36:56 [Information] Background job: START
+2025-03-07 15:36:56 [Information] Removed 0 record(s)
+2025-03-07 15:36:56 [Information] Background job: END
+2025-03-07 15:37:11 [Information] Background job: START
+2025-03-07 15:37:11 [Information] Removed 0 record(s)
+2025-03-07 15:37:11 [Information] Background job: END
+2025-03-07 15:37:14 [Information] Server desktop-turrar0:45932:34f8e847 caught stopping signal...
+2025-03-07 15:37:14 [Information] Server desktop-turrar0:45932:34f8e847 All dispatchers stopped
+2025-03-07 15:37:14 [Information] Server desktop-turrar0:45932:34f8e847 successfully reported itself as stopped in 2.069 ms
+2025-03-07 15:37:14 [Information] Server desktop-turrar0:45932:34f8e847 has been stopped in total 5.056 ms
+2025-03-07 16:02:22 [Information] Start installing Hangfire SQL objects...
+2025-03-07 16:02:22 [Information] Hangfire SQL objects installed.
+2025-03-07 16:02:22 [Information] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: localhost, DB: HangfireDB, Schema: hangfire'
+2025-03-07 16:02:22 [Information] Using the following options for PostgreSQL job storage:
+2025-03-07 16:02:22 [Information]     Queue poll interval: 00:00:15.
+2025-03-07 16:02:22 [Information]     Invisibility timeout: 00:30:00.
+2025-03-07 16:02:22 [Information]     Use sliding invisibility timeout: False.
+2025-03-07 16:02:22 [Information] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-03-07 16:02:23 [Information] Server desktop-turrar0:13328:fdecf54d successfully announced in 7.3561 ms
+2025-03-07 16:02:23 [Information] Server desktop-turrar0:13328:fdecf54d is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-03-07 16:02:23 [Information] Server desktop-turrar0:13328:fdecf54d all the dispatchers started
+2025-03-07 16:02:23 [Information] Background job: START
+2025-03-07 16:02:23 [Information] Removed 0 record(s)
+2025-03-07 16:02:23 [Information] Background job: END
+2025-03-07 16:03:08 [Information] Background job: START
+2025-03-07 16:03:08 [Information] Removed 0 record(s)
+2025-03-07 16:03:08 [Information] Background job: END
+2025-03-07 16:04:08 [Information] Background job: START
+2025-03-07 16:04:08 [Information] Removed 0 record(s)
+2025-03-07 16:04:08 [Information] Background job: END
+2025-03-07 16:04:42 [Information] Server desktop-turrar0:13328:fdecf54d caught stopping signal...
+2025-03-07 16:04:42 [Information] Server desktop-turrar0:13328:fdecf54d All dispatchers stopped
+2025-03-07 16:04:42 [Information] Server desktop-turrar0:13328:fdecf54d successfully reported itself as stopped in 1.9282 ms
+2025-03-07 16:04:42 [Information] Server desktop-turrar0:13328:fdecf54d has been stopped in total 6.2119 ms
+2025-03-07 16:29:23 [Information] Start installing Hangfire SQL objects...
+2025-03-07 16:29:23 [Information] Hangfire SQL objects installed.
+2025-03-07 16:29:23 [Information] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: localhost, DB: HangfireDB, Schema: hangfire'
+2025-03-07 16:29:23 [Information] Using the following options for PostgreSQL job storage:
+2025-03-07 16:29:23 [Information]     Queue poll interval: 00:00:15.
+2025-03-07 16:29:23 [Information]     Invisibility timeout: 00:30:00.
+2025-03-07 16:29:23 [Information]     Use sliding invisibility timeout: False.
+2025-03-07 16:29:23 [Information] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-03-07 16:29:23 [Information] Server desktop-turrar0:11148:db0803f1 successfully announced in 6.9967 ms
+2025-03-07 16:29:23 [Information] Server desktop-turrar0:11148:db0803f1 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-03-07 16:29:23 [Information] Server desktop-turrar0:11148:db0803f1 all the dispatchers started
+2025-03-07 16:29:23 [Information] Background job: START
+2025-03-07 16:29:23 [Information] Removed 0 record(s)
+2025-03-07 16:29:23 [Information] Background job: END
+2025-03-07 16:29:26 [Warning] Failed to determine the https port for redirect.
+2025-03-07 16:29:26 [Warning] Failed to determine the https port for redirect.
+2025-03-07 16:29:26 [Information] HTTP "POST" "/taskHub/negotiate" responded 200 in 10.0227 ms
+2025-03-07 16:30:08 [Information] Background job: START
+2025-03-07 16:30:08 [Information] Removed 0 record(s)
+2025-03-07 16:30:08 [Information] Background job: END
+2025-03-07 16:31:09 [Information] Background job: START
+2025-03-07 16:31:09 [Information] Removed 0 record(s)
+2025-03-07 16:31:09 [Information] Background job: END
+2025-03-07 16:32:09 [Information] Background job: START
+2025-03-07 16:32:09 [Information] Removed 0 record(s)
+2025-03-07 16:32:09 [Information] Background job: END
+2025-03-07 16:33:09 [Information] Background job: START
+2025-03-07 16:33:09 [Information] Removed 0 record(s)
+2025-03-07 16:33:09 [Information] Background job: END
+2025-03-07 16:33:56 [Information] Server desktop-turrar0:11148:db0803f1 caught stopping signal...
+2025-03-07 16:33:56 [Information] Server desktop-turrar0:11148:db0803f1 All dispatchers stopped
+2025-03-07 16:33:56 [Information] Server desktop-turrar0:11148:db0803f1 successfully reported itself as stopped in 1.937 ms
+2025-03-07 16:33:56 [Information] HTTP "GET" "/taskHub" responded 101 in 270261.2031 ms
+2025-03-07 16:33:56 [Information] Server desktop-turrar0:11148:db0803f1 has been stopped in total 4.8518 ms
+2025-03-07 16:34:00 [Information] Start installing Hangfire SQL objects...
+2025-03-07 16:34:01 [Information] Hangfire SQL objects installed.
+2025-03-07 16:34:01 [Information] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: localhost, DB: HangfireDB, Schema: hangfire'
+2025-03-07 16:34:01 [Information] Using the following options for PostgreSQL job storage:
+2025-03-07 16:34:01 [Information]     Queue poll interval: 00:00:15.
+2025-03-07 16:34:01 [Information]     Invisibility timeout: 00:30:00.
+2025-03-07 16:34:01 [Information]     Use sliding invisibility timeout: False.
+2025-03-07 16:34:01 [Information] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-03-07 16:34:01 [Information] Server desktop-turrar0:37360:156b84f5 successfully announced in 6.0236 ms
+2025-03-07 16:34:01 [Information] Server desktop-turrar0:37360:156b84f5 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-03-07 16:34:01 [Information] Server desktop-turrar0:37360:156b84f5 all the dispatchers started
+2025-03-07 16:34:01 [Information] Background job: START
+2025-03-07 16:34:01 [Information] Removed 0 record(s)
+2025-03-07 16:34:01 [Information] Background job: END
+2025-03-07 16:34:01 [Warning] Failed to determine the https port for redirect.
+2025-03-07 16:34:01 [Warning] Failed to determine the https port for redirect.
+2025-03-07 16:34:01 [Information] HTTP "POST" "/taskHub/negotiate" responded 200 in 8.6312 ms
+2025-03-07 16:34:12 [Error] HTTP "POST" "/api/v1/auth/login" responded 500 in 5.6901 ms
+System.InvalidOperationException: Unable to resolve service for type 'TaskManagementAPI.Services.JwtService' while attempting to activate 'TaskManagementAPI.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method39(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-03-07 16:34:12 [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'TaskManagementAPI.Services.JwtService' while attempting to activate 'TaskManagementAPI.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method39(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-07 16:34:31 [Error] HTTP "POST" "/api/v1/auth/login" responded 500 in 0.2307 ms
+System.InvalidOperationException: Unable to resolve service for type 'TaskManagementAPI.Services.JwtService' while attempting to activate 'TaskManagementAPI.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method39(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-03-07 16:34:31 [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'TaskManagementAPI.Services.JwtService' while attempting to activate 'TaskManagementAPI.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method39(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-07 16:34:40 [Error] HTTP "GET" "/api/v1/tasks/health" responded 500 in 1.2498 ms
+System.InvalidOperationException: Unable to resolve service for type 'TaskManagementAPI.Services.RedisService' while attempting to activate 'TaskManagementAPI.Controllers.TaskController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method41(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-03-07 16:34:40 [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'TaskManagementAPI.Services.RedisService' while attempting to activate 'TaskManagementAPI.Controllers.TaskController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method41(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-07 16:35:01 [Information] Background job: START
+2025-03-07 16:35:01 [Information] Removed 0 record(s)
+2025-03-07 16:35:01 [Information] Background job: END
+2025-03-07 16:36:01 [Information] Background job: START
+2025-03-07 16:36:01 [Information] Removed 0 record(s)
+2025-03-07 16:36:01 [Information] Background job: END
+2025-03-07 16:37:01 [Information] Background job: START
+2025-03-07 16:37:01 [Information] Removed 0 record(s)
+2025-03-07 16:37:01 [Information] Background job: END
+2025-03-07 16:37:38 [Information] Server desktop-turrar0:37360:156b84f5 caught stopping signal...
+2025-03-07 16:37:38 [Information] Server desktop-turrar0:37360:156b84f5 All dispatchers stopped
+2025-03-07 16:37:38 [Information] HTTP "GET" "/taskHub" responded 101 in 217633.7356 ms
+2025-03-07 16:37:38 [Information] Server desktop-turrar0:37360:156b84f5 successfully reported itself as stopped in 2.1119 ms
+2025-03-07 16:37:38 [Information] Server desktop-turrar0:37360:156b84f5 has been stopped in total 7.1753 ms
+2025-03-07 16:37:42 [Information] Start installing Hangfire SQL objects...
+2025-03-07 16:37:42 [Information] Hangfire SQL objects installed.
+2025-03-07 16:37:42 [Information] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: localhost, DB: HangfireDB, Schema: hangfire'
+2025-03-07 16:37:42 [Information] Using the following options for PostgreSQL job storage:
+2025-03-07 16:37:42 [Information]     Queue poll interval: 00:00:15.
+2025-03-07 16:37:42 [Information]     Invisibility timeout: 00:30:00.
+2025-03-07 16:37:42 [Information]     Use sliding invisibility timeout: False.
+2025-03-07 16:37:42 [Information] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-03-07 16:37:42 [Information] Server desktop-turrar0:48324:d694037d successfully announced in 5.97 ms
+2025-03-07 16:37:42 [Information] Server desktop-turrar0:48324:d694037d is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-03-07 16:37:42 [Information] Server desktop-turrar0:48324:d694037d all the dispatchers started
+2025-03-07 16:37:43 [Warning] Failed to determine the https port for redirect.
+2025-03-07 16:37:43 [Warning] Failed to determine the https port for redirect.
+2025-03-07 16:37:43 [Information] HTTP "POST" "/taskHub/negotiate" responded 200 in 9.1272 ms
+2025-03-07 16:37:47 [Information] Server desktop-turrar0:48324:d694037d caught stopping signal...
+2025-03-07 16:37:47 [Information] Server desktop-turrar0:48324:d694037d All dispatchers stopped
+2025-03-07 16:37:47 [Information] Server desktop-turrar0:48324:d694037d successfully reported itself as stopped in 2.0976 ms
+2025-03-07 16:37:47 [Information] Server desktop-turrar0:48324:d694037d has been stopped in total 7.2362 ms
+2025-03-07 16:37:47 [Information] HTTP "GET" "/taskHub" responded 101 in 3343.9226 ms
+2025-03-07 16:37:56 [Information] Start installing Hangfire SQL objects...
+2025-03-07 16:37:56 [Information] Hangfire SQL objects installed.
+2025-03-07 16:37:56 [Information] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: localhost, DB: HangfireDB, Schema: hangfire'
+2025-03-07 16:37:56 [Information] Using the following options for PostgreSQL job storage:
+2025-03-07 16:37:56 [Information]     Queue poll interval: 00:00:15.
+2025-03-07 16:37:56 [Information]     Invisibility timeout: 00:30:00.
+2025-03-07 16:37:56 [Information]     Use sliding invisibility timeout: False.
+2025-03-07 16:37:56 [Information] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-03-07 16:37:56 [Information] Server desktop-turrar0:52952:d0a0fbf7 successfully announced in 6.2997 ms
+2025-03-07 16:37:56 [Information] Server desktop-turrar0:52952:d0a0fbf7 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-03-07 16:37:56 [Information] Server desktop-turrar0:52952:d0a0fbf7 all the dispatchers started
+2025-03-07 16:38:04 [Warning] Failed to determine the https port for redirect.
+2025-03-07 16:38:04 [Warning] Failed to determine the https port for redirect.
+2025-03-07 16:38:04 [Error] HTTP "GET" "/api/v1/tasks/health" responded 500 in 9.1095 ms
+System.InvalidOperationException: Unable to resolve service for type 'TaskManagementAPI.Services.RedisService' while attempting to activate 'TaskManagementAPI.Controllers.TaskController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method25(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-03-07 16:38:04 [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'TaskManagementAPI.Services.RedisService' while attempting to activate 'TaskManagementAPI.Controllers.TaskController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method25(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-07 16:38:04 [Information] HTTP "POST" "/taskHub/negotiate" responded 200 in 5.0905 ms
+2025-03-07 16:38:11 [Information] Background job: START
+2025-03-07 16:38:11 [Information] Removed 0 record(s)
+2025-03-07 16:38:11 [Information] Background job: END
+2025-03-07 16:38:15 [Information] Server desktop-turrar0:52952:d0a0fbf7 caught stopping signal...
+2025-03-07 16:38:15 [Information] Server desktop-turrar0:52952:d0a0fbf7 All dispatchers stopped
+2025-03-07 16:38:15 [Information] Server desktop-turrar0:52952:d0a0fbf7 successfully reported itself as stopped in 2.1249 ms
+2025-03-07 16:38:15 [Information] HTTP "GET" "/taskHub" responded 101 in 11066.1948 ms
+2025-03-07 16:38:15 [Information] Server desktop-turrar0:52952:d0a0fbf7 has been stopped in total 5.355 ms
+2025-03-07 16:38:30 [Information] Start installing Hangfire SQL objects...
+2025-03-07 16:38:30 [Information] Hangfire SQL objects installed.
+2025-03-07 16:38:30 [Information] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: localhost, DB: HangfireDB, Schema: hangfire'
+2025-03-07 16:38:30 [Information] Using the following options for PostgreSQL job storage:
+2025-03-07 16:38:30 [Information]     Queue poll interval: 00:00:15.
+2025-03-07 16:38:30 [Information]     Invisibility timeout: 00:30:00.
+2025-03-07 16:38:30 [Information]     Use sliding invisibility timeout: False.
+2025-03-07 16:38:30 [Information] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-03-07 16:38:30 [Information] Server desktop-turrar0:53712:e90a12db successfully announced in 5.6834 ms
+2025-03-07 16:38:30 [Information] Server desktop-turrar0:53712:e90a12db is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-03-07 16:38:30 [Information] Server desktop-turrar0:53712:e90a12db all the dispatchers started
+2025-03-07 16:38:33 [Warning] Failed to determine the https port for redirect.
+2025-03-07 16:38:33 [Warning] Failed to determine the https port for redirect.
+2025-03-07 16:38:33 [Information] HTTP "POST" "/taskHub/negotiate" responded 200 in 8.8875 ms
+2025-03-07 16:38:34 [Error] HTTP "GET" "/api/v1/tasks/health" responded 500 in 3.9274 ms
+System.InvalidOperationException: Unable to resolve service for type 'TaskManagementAPI.Services.RedisService' while attempting to activate 'TaskManagementAPI.Controllers.TaskController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method26(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-03-07 16:38:34 [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'TaskManagementAPI.Services.RedisService' while attempting to activate 'TaskManagementAPI.Controllers.TaskController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method26(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-07 16:39:00 [Information] Background job: START
+2025-03-07 16:39:00 [Information] Removed 0 record(s)
+2025-03-07 16:39:00 [Information] Background job: END
+2025-03-07 16:39:32 [Information] Server desktop-turrar0:53712:e90a12db caught stopping signal...
+2025-03-07 16:39:32 [Information] Server desktop-turrar0:53712:e90a12db All dispatchers stopped
+2025-03-07 16:39:32 [Information] HTTP "GET" "/taskHub" responded 101 in 58205.1803 ms
+2025-03-07 16:39:32 [Information] Server desktop-turrar0:53712:e90a12db successfully reported itself as stopped in 2.1205 ms
+2025-03-07 16:39:32 [Information] Server desktop-turrar0:53712:e90a12db has been stopped in total 5.279 ms
+2025-03-07 16:39:35 [Information] Start installing Hangfire SQL objects...
+2025-03-07 16:39:35 [Information] Hangfire SQL objects installed.
+2025-03-07 16:39:35 [Information] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: localhost, DB: HangfireDB, Schema: hangfire'
+2025-03-07 16:39:35 [Information] Using the following options for PostgreSQL job storage:
+2025-03-07 16:39:35 [Information]     Queue poll interval: 00:00:15.
+2025-03-07 16:39:35 [Information]     Invisibility timeout: 00:30:00.
+2025-03-07 16:39:35 [Information]     Use sliding invisibility timeout: False.
+2025-03-07 16:39:35 [Information] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-03-07 16:39:35 [Information] Server desktop-turrar0:7448:5109665a successfully announced in 6.2984 ms
+2025-03-07 16:39:35 [Information] Server desktop-turrar0:7448:5109665a is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-03-07 16:39:35 [Information] Server desktop-turrar0:7448:5109665a all the dispatchers started
+2025-03-07 16:39:36 [Warning] Failed to determine the https port for redirect.
+2025-03-07 16:39:36 [Warning] Failed to determine the https port for redirect.
+2025-03-07 16:39:36 [Information] HTTP "POST" "/taskHub/negotiate" responded 200 in 9.0908 ms
+2025-03-07 16:39:36 [Information] Health check
+2025-03-07 16:39:36 [Information] HTTP "GET" "/api/v1/tasks/health" responded 200 in 47.7794 ms
+2025-03-07 16:39:44 [Error] HTTP "POST" "/api/v1/auth/login" responded 500 in 3.4133 ms
+System.InvalidOperationException: Unable to resolve service for type 'TaskManagementAPI.Services.JwtService' while attempting to activate 'TaskManagementAPI.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method28(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-03-07 16:39:44 [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'TaskManagementAPI.Services.JwtService' while attempting to activate 'TaskManagementAPI.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method28(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-07 16:40:05 [Information] Background job: START
+2025-03-07 16:40:05 [Information] Removed 0 record(s)
+2025-03-07 16:40:05 [Information] Background job: END
+2025-03-07 16:40:23 [Information] Health check
+2025-03-07 16:40:23 [Information] HTTP "GET" "/api/v1/tasks/health" responded 200 in 1.1303 ms
+2025-03-07 16:40:25 [Error] HTTP "POST" "/api/v1/auth/login" responded 500 in 0.3248 ms
+System.InvalidOperationException: Unable to resolve service for type 'TaskManagementAPI.Services.JwtService' while attempting to activate 'TaskManagementAPI.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method28(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-03-07 16:40:25 [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'TaskManagementAPI.Services.JwtService' while attempting to activate 'TaskManagementAPI.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method28(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-07 16:40:26 [Error] HTTP "POST" "/api/v1/auth/login" responded 500 in 0.2500 ms
+System.InvalidOperationException: Unable to resolve service for type 'TaskManagementAPI.Services.JwtService' while attempting to activate 'TaskManagementAPI.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method28(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-03-07 16:40:26 [Error] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'TaskManagementAPI.Services.JwtService' while attempting to activate 'TaskManagementAPI.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method28(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-03-07 16:41:05 [Information] Background job: START
+2025-03-07 16:41:05 [Information] Removed 0 record(s)
+2025-03-07 16:41:05 [Information] Background job: END
+2025-03-07 16:41:53 [Information] Server desktop-turrar0:7448:5109665a caught stopping signal...
+2025-03-07 16:41:53 [Information] Server desktop-turrar0:7448:5109665a All dispatchers stopped
+2025-03-07 16:41:53 [Information] HTTP "GET" "/taskHub" responded 101 in 136269.9718 ms
+2025-03-07 16:41:53 [Information] Server desktop-turrar0:7448:5109665a successfully reported itself as stopped in 1.8975 ms
+2025-03-07 16:41:53 [Information] Server desktop-turrar0:7448:5109665a has been stopped in total 5.4494 ms
+2025-03-07 16:42:52 [Information] Start installing Hangfire SQL objects...
+2025-03-07 16:42:52 [Information] Hangfire SQL objects installed.
+2025-03-07 16:42:52 [Information] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: localhost, DB: HangfireDB, Schema: hangfire'
+2025-03-07 16:42:52 [Information] Using the following options for PostgreSQL job storage:
+2025-03-07 16:42:52 [Information]     Queue poll interval: 00:00:15.
+2025-03-07 16:42:52 [Information]     Invisibility timeout: 00:30:00.
+2025-03-07 16:42:52 [Information]     Use sliding invisibility timeout: False.
+2025-03-07 16:42:52 [Information] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-03-07 16:42:52 [Information] Server desktop-turrar0:3500:28f66f27 successfully announced in 5.9205 ms
+2025-03-07 16:42:52 [Information] Server desktop-turrar0:3500:28f66f27 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-03-07 16:42:52 [Information] Server desktop-turrar0:3500:28f66f27 all the dispatchers started
+2025-03-07 16:42:52 [Information] Background job: START
+2025-03-07 16:42:52 [Information] Removed 0 record(s)
+2025-03-07 16:42:52 [Information] Background job: END
+2025-03-07 16:42:55 [Warning] Failed to determine the https port for redirect.
+2025-03-07 16:42:55 [Warning] Failed to determine the https port for redirect.
+2025-03-07 16:42:55 [Information] Login attempt for user: "admin"
+2025-03-07 16:42:55 [Information] Login successful for user: "admin"
+2025-03-07 16:42:55 [Information] HTTP "POST" "/api/v1/auth/login" responded 200 in 65.0648 ms
+2025-03-07 16:43:07 [Information] Background job: START
+2025-03-07 16:43:07 [Information] Removed 0 record(s)
+2025-03-07 16:43:07 [Information] Background job: END
+2025-03-07 16:43:30 [Information] Creating a new task with title: "er"
+2025-03-07 16:43:30 [Information] Execute: CreateTaskCommandHandler.Handle
+2025-03-07 16:43:30 [Information] Task created with ID: 06bb5f2f-0511-4d0c-aac8-dbc0e5d35bce
+2025-03-07 16:43:30 [Information] HTTP "POST" "/api/v1/tasks" responded 201 in 82.3416 ms
+2025-03-07 16:43:37 [Information] HTTP "POST" "/taskHub/negotiate" responded 200 in 3.2121 ms
+2025-03-07 16:43:39 [Information] HTTP "GET" "/taskHub" responded 101 in 1652.5560 ms
+2025-03-07 16:43:39 [Information] HTTP "POST" "/taskHub/negotiate" responded 200 in 0.1556 ms
+2025-03-07 16:43:47 [Information] Creating a new task with title: "er2"
+2025-03-07 16:43:47 [Information] Execute: CreateTaskCommandHandler.Handle
+2025-03-07 16:43:47 [Information] Task created with ID: 58d513e7-4e34-4d8a-a8d0-f07c1e98d818
+2025-03-07 16:43:47 [Information] HTTP "POST" "/api/v1/tasks" responded 201 in 6.0898 ms
+2025-03-07 16:43:57 [Information] Creating a new task with title: "er3"
+2025-03-07 16:43:57 [Information] Execute: CreateTaskCommandHandler.Handle
+2025-03-07 16:43:57 [Information] Task created with ID: 24059104-6ef7-4dda-9751-f416e9002280
+2025-03-07 16:43:57 [Information] HTTP "POST" "/api/v1/tasks" responded 201 in 5.5218 ms
+2025-03-07 16:44:07 [Information] Background job: START
+2025-03-07 16:44:07 [Information] Removed 0 record(s)
+2025-03-07 16:44:07 [Information] Background job: END
+2025-03-07 16:45:07 [Information] Background job: START
+2025-03-07 16:45:07 [Information] Removed 0 record(s)
+2025-03-07 16:45:07 [Information] Background job: END
+2025-03-07 16:46:07 [Information] Background job: START
+2025-03-07 16:46:07 [Information] Removed 0 record(s)
+2025-03-07 16:46:07 [Information] Background job: END
+2025-03-07 16:47:08 [Information] Background job: START
+2025-03-07 16:47:08 [Information] Removed 0 record(s)
+2025-03-07 16:47:08 [Information] Background job: END
+2025-03-07 16:48:08 [Information] Background job: START
+2025-03-07 16:48:08 [Information] Removed 0 record(s)
+2025-03-07 16:48:08 [Information] Background job: END
+2025-03-07 16:49:08 [Information] Background job: START
+2025-03-07 16:49:08 [Information] Removed 0 record(s)
+2025-03-07 16:49:08 [Information] Background job: END
+2025-03-07 16:50:08 [Information] Background job: START
+2025-03-07 16:50:08 [Information] Removed 0 record(s)
+2025-03-07 16:50:08 [Information] Background job: END
+2025-03-07 16:51:08 [Information] Background job: START
+2025-03-07 16:51:08 [Information] Removed 0 record(s)
+2025-03-07 16:51:08 [Information] Background job: END
+2025-03-07 16:51:40 [Information] HTTP "GET" "/taskHub" responded 101 in 480571.1132 ms
+2025-03-07 16:51:40 [Information] HTTP "POST" "/taskHub/negotiate" responded 200 in 0.1344 ms
+2025-03-07 16:51:56 [Information] Creating a new task with title: "wake up"
+2025-03-07 16:51:56 [Information] Execute: CreateTaskCommandHandler.Handle
+2025-03-07 16:51:56 [Information] Task created with ID: 19d88b82-ac59-4afd-9d39-dd7c838d76cf
+2025-03-07 16:51:56 [Information] HTTP "POST" "/api/v1/tasks" responded 201 in 4.7784 ms
+2025-03-07 16:52:08 [Information] Background job: START
+2025-03-07 16:52:08 [Information] Removed 0 record(s)
+2025-03-07 16:52:08 [Information] Background job: END
+2025-03-07 16:53:08 [Information] Background job: START
+2025-03-07 16:53:08 [Information] Removed 0 record(s)
+2025-03-07 16:53:08 [Information] Background job: END
+2025-03-07 16:54:08 [Information] Background job: START
+2025-03-07 16:54:08 [Information] Removed 0 record(s)
+2025-03-07 16:54:08 [Information] Background job: END
+2025-03-07 16:55:08 [Information] Background job: START
+2025-03-07 16:55:08 [Information] Removed 0 record(s)
+2025-03-07 16:55:08 [Information] Background job: END
+2025-03-07 16:56:08 [Information] Background job: START
+2025-03-07 16:56:08 [Information] Removed 0 record(s)
+2025-03-07 16:56:08 [Information] Background job: END
+2025-03-07 16:57:08 [Information] Background job: START
+2025-03-07 16:57:08 [Information] Removed 0 record(s)
+2025-03-07 16:57:08 [Information] Background job: END
+2025-03-07 16:58:08 [Information] Background job: START
+2025-03-07 16:58:08 [Information] Removed 0 record(s)
+2025-03-07 16:58:08 [Information] Background job: END
+2025-03-07 16:59:08 [Information] Background job: START
+2025-03-07 16:59:08 [Information] Removed 0 record(s)
+2025-03-07 16:59:08 [Information] Background job: END
+2025-03-07 17:00:08 [Information] Background job: START
+2025-03-07 17:00:08 [Information] Removed 0 record(s)
+2025-03-07 17:00:08 [Information] Background job: END
+2025-03-07 17:01:08 [Information] Background job: START
+2025-03-07 17:01:08 [Information] Removed 0 record(s)
+2025-03-07 17:01:08 [Information] Background job: END
+2025-03-07 17:02:08 [Information] Background job: START
+2025-03-07 17:02:08 [Information] Removed 0 record(s)
+2025-03-07 17:02:08 [Information] Background job: END
+2025-03-07 17:03:09 [Information] Background job: START
+2025-03-07 17:03:09 [Information] Removed 0 record(s)
+2025-03-07 17:03:09 [Information] Background job: END
+2025-03-07 17:04:09 [Information] Background job: START
+2025-03-07 17:04:09 [Information] Removed 0 record(s)
+2025-03-07 17:04:09 [Information] Background job: END
+2025-03-07 17:05:09 [Information] Background job: START
+2025-03-07 17:05:09 [Information] Removed 0 record(s)
+2025-03-07 17:05:09 [Information] Background job: END
+2025-03-07 17:06:09 [Information] Background job: START
+2025-03-07 17:06:09 [Information] Removed 0 record(s)
+2025-03-07 17:06:09 [Information] Background job: END
+2025-03-07 17:07:09 [Information] Background job: START
+2025-03-07 17:07:09 [Information] Removed 0 record(s)
+2025-03-07 17:07:09 [Information] Background job: END
+2025-03-07 17:08:08 [Information] Server desktop-turrar0:3500:28f66f27 caught stopping signal...
+2025-03-07 17:08:08 [Information] Server desktop-turrar0:3500:28f66f27 All dispatchers stopped
+2025-03-07 17:08:08 [Information] HTTP "GET" "/taskHub" responded 101 in 988190.1839 ms
+2025-03-07 17:08:08 [Information] Server desktop-turrar0:3500:28f66f27 successfully reported itself as stopped in 1.8659 ms
+2025-03-07 17:08:08 [Information] Server desktop-turrar0:3500:28f66f27 has been stopped in total 4.5692 ms
+2025-03-07 17:08:16 [Information] Start installing Hangfire SQL objects...
+2025-03-07 17:08:16 [Information] Hangfire SQL objects installed.
+2025-03-07 17:09:08 [Information] Start installing Hangfire SQL objects...
+2025-03-07 17:09:08 [Information] Hangfire SQL objects installed.
+2025-03-07 17:09:26 [Information] Start installing Hangfire SQL objects...
+2025-03-07 17:09:26 [Information] Hangfire SQL objects installed.
+2025-03-07 17:09:26 [Information] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: localhost, DB: HangfireDB, Schema: hangfire'
+2025-03-07 17:09:26 [Information] Using the following options for PostgreSQL job storage:
+2025-03-07 17:09:26 [Information]     Queue poll interval: 00:00:15.
+2025-03-07 17:09:26 [Information]     Invisibility timeout: 00:30:00.
+2025-03-07 17:09:26 [Information]     Use sliding invisibility timeout: False.
+2025-03-07 17:09:26 [Information] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-03-07 17:09:26 [Information] Server desktop-turrar0:45064:6f7ef167 successfully announced in 6.1845 ms
+2025-03-07 17:09:26 [Information] Server desktop-turrar0:45064:6f7ef167 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-03-07 17:09:26 [Information] Server desktop-turrar0:45064:6f7ef167 all the dispatchers started
+2025-03-07 17:09:26 [Information] Background job: START
+2025-03-07 17:09:26 [Information] Removed 0 record(s)
+2025-03-07 17:09:26 [Information] Background job: END
+2025-03-07 17:09:29 [Information] Server desktop-turrar0:45064:6f7ef167 caught stopping signal...
+2025-03-07 17:09:29 [Information] Server desktop-turrar0:45064:6f7ef167 All dispatchers stopped
+2025-03-07 17:09:29 [Information] Server desktop-turrar0:45064:6f7ef167 successfully reported itself as stopped in 1.8574 ms
+2025-03-07 17:09:29 [Information] Server desktop-turrar0:45064:6f7ef167 has been stopped in total 4.2952 ms
+2025-03-07 17:09:41 [Information] Start installing Hangfire SQL objects...
+2025-03-07 17:09:41 [Information] Hangfire SQL objects installed.
+2025-03-07 17:09:41 [Information] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: localhost, DB: HangfireDB, Schema: hangfire'
+2025-03-07 17:09:41 [Information] Using the following options for PostgreSQL job storage:
+2025-03-07 17:09:41 [Information]     Queue poll interval: 00:00:15.
+2025-03-07 17:09:41 [Information]     Invisibility timeout: 00:30:00.
+2025-03-07 17:09:41 [Information]     Use sliding invisibility timeout: False.
+2025-03-07 17:09:41 [Information] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-03-07 17:09:41 [Information] Server desktop-turrar0:33448:aab3614e successfully announced in 5.9316 ms
+2025-03-07 17:09:41 [Information] Server desktop-turrar0:33448:aab3614e is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-03-07 17:09:41 [Information] Server desktop-turrar0:33448:aab3614e all the dispatchers started
+2025-03-07 17:10:06 [Information] Server desktop-turrar0:33448:aab3614e caught stopping signal...
+2025-03-07 17:10:06 [Information] Server desktop-turrar0:33448:aab3614e All dispatchers stopped
+2025-03-07 17:10:06 [Information] Server desktop-turrar0:33448:aab3614e successfully reported itself as stopped in 2.0806 ms
+2025-03-07 17:10:06 [Information] Server desktop-turrar0:33448:aab3614e has been stopped in total 5.1807 ms
+2025-03-07 17:10:09 [Information] Start installing Hangfire SQL objects...
+2025-03-07 17:10:09 [Information] Hangfire SQL objects installed.
+2025-03-07 17:10:10 [Information] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: localhost, DB: HangfireDB, Schema: hangfire'
+2025-03-07 17:10:10 [Information] Using the following options for PostgreSQL job storage:
+2025-03-07 17:10:10 [Information]     Queue poll interval: 00:00:15.
+2025-03-07 17:10:10 [Information]     Invisibility timeout: 00:30:00.
+2025-03-07 17:10:10 [Information]     Use sliding invisibility timeout: False.
+2025-03-07 17:10:10 [Information] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-03-07 17:10:10 [Information] Server desktop-turrar0:35932:c596ce03 successfully announced in 7.5189 ms
+2025-03-07 17:10:10 [Information] Server desktop-turrar0:35932:c596ce03 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-03-07 17:10:10 [Information] Server desktop-turrar0:35932:c596ce03 all the dispatchers started
+2025-03-07 17:10:10 [Information] Background job: START
+2025-03-07 17:10:10 [Information] Removed 0 record(s)
+2025-03-07 17:10:10 [Information] Background job: END
+2025-03-07 17:11:10 [Information] Background job: START
+2025-03-07 17:11:10 [Information] Removed 0 record(s)
+2025-03-07 17:11:10 [Information] Background job: END
+2025-03-07 17:11:18 [Information] Server desktop-turrar0:35932:c596ce03 caught stopping signal...
+2025-03-07 17:11:18 [Information] Server desktop-turrar0:35932:c596ce03 All dispatchers stopped
+2025-03-07 17:11:18 [Information] Server desktop-turrar0:35932:c596ce03 successfully reported itself as stopped in 1.773 ms
+2025-03-07 17:11:18 [Information] Server desktop-turrar0:35932:c596ce03 has been stopped in total 3.9556 ms
+2025-03-07 17:11:21 [Information] Start installing Hangfire SQL objects...
+2025-03-07 17:11:21 [Information] Hangfire SQL objects installed.
+2025-03-07 17:11:21 [Information] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: localhost, DB: HangfireDB, Schema: hangfire'
+2025-03-07 17:11:21 [Information] Using the following options for PostgreSQL job storage:
+2025-03-07 17:11:21 [Information]     Queue poll interval: 00:00:15.
+2025-03-07 17:11:21 [Information]     Invisibility timeout: 00:30:00.
+2025-03-07 17:11:21 [Information]     Use sliding invisibility timeout: False.
+2025-03-07 17:11:21 [Information] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-03-07 17:11:21 [Information] Server desktop-turrar0:6440:a56436b5 successfully announced in 6.0541 ms
+2025-03-07 17:11:21 [Information] Server desktop-turrar0:6440:a56436b5 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-03-07 17:11:21 [Information] Server desktop-turrar0:6440:a56436b5 all the dispatchers started
+2025-03-07 17:11:24 [Information] Server desktop-turrar0:6440:a56436b5 caught stopping signal...
+2025-03-07 17:11:24 [Information] Server desktop-turrar0:6440:a56436b5 All dispatchers stopped
+2025-03-07 17:11:24 [Information] Server desktop-turrar0:6440:a56436b5 successfully reported itself as stopped in 2.1829 ms
+2025-03-07 17:11:24 [Information] Server desktop-turrar0:6440:a56436b5 has been stopped in total 5.8345 ms
+2025-03-07 17:11:38 [Information] Start installing Hangfire SQL objects...
+2025-03-07 17:11:39 [Information] Hangfire SQL objects installed.
+2025-03-07 17:11:39 [Information] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: localhost, DB: HangfireDB, Schema: hangfire'
+2025-03-07 17:11:39 [Information] Using the following options for PostgreSQL job storage:
+2025-03-07 17:11:39 [Information]     Queue poll interval: 00:00:15.
+2025-03-07 17:11:39 [Information]     Invisibility timeout: 00:30:00.
+2025-03-07 17:11:39 [Information]     Use sliding invisibility timeout: False.
+2025-03-07 17:11:39 [Information] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-03-07 17:11:39 [Information] Server desktop-turrar0:49644:05fc31c2 successfully announced in 6.2668 ms
+2025-03-07 17:11:39 [Information] Server desktop-turrar0:49644:05fc31c2 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-03-07 17:11:39 [Information] Server desktop-turrar0:49644:05fc31c2 all the dispatchers started
+2025-03-07 17:12:09 [Information] Background job: START
+2025-03-07 17:12:09 [Information] Removed 0 record(s)
+2025-03-07 17:12:09 [Information] Background job: END
+2025-03-07 17:13:07 [Warning] Failed to determine the https port for redirect.
+2025-03-07 17:13:07 [Warning] Failed to determine the https port for redirect.
+2025-03-07 17:13:07 [Information] Getting tasks with status filter: null
+2025-03-07 17:13:07 [Information] Attempting to retrieve key "All" from cache
+2025-03-07 17:13:07 [Warning] Key "All" not found in cache
+2025-03-07 17:13:07 [Information] Execute: GetTasksQueryHandler.Handle
+2025-03-07 17:13:07 [Information] Found 10 tasks with status filter: null
+2025-03-07 17:13:07 [Information] Successfully added key "All" to cache with expiry 00:01:00
+2025-03-07 17:13:07 [Information] HTTP "GET" "/api/v1/tasks" responded 200 in 108.4613 ms
+2025-03-07 17:13:09 [Information] Background job: START
+2025-03-07 17:13:09 [Information] Removed 0 record(s)
+2025-03-07 17:13:09 [Information] Background job: END
+2025-03-07 17:13:19 [Information] Getting tasks with status filter: null
+2025-03-07 17:13:19 [Information] Attempting to retrieve key "All" from cache
+2025-03-07 17:13:19 [Information] Successfully retrieved key "All" from cache
+2025-03-07 17:13:19 [Information] Found 10 tasks with status filter: null
+2025-03-07 17:13:19 [Information] Successfully added key "All" to cache with expiry 00:01:00
+2025-03-07 17:13:19 [Information] HTTP "GET" "/api/v1/tasks" responded 200 in 13.1235 ms
+2025-03-07 17:14:09 [Information] Background job: START
+2025-03-07 17:14:09 [Information] Removed 0 record(s)
+2025-03-07 17:14:09 [Information] Background job: END
+2025-03-07 17:15:09 [Information] Background job: START
+2025-03-07 17:15:09 [Information] Removed 0 record(s)
+2025-03-07 17:15:09 [Information] Background job: END
+2025-03-07 17:16:09 [Information] Background job: START
+2025-03-07 17:16:09 [Information] Removed 0 record(s)
+2025-03-07 17:16:09 [Information] Background job: END
+2025-03-07 17:17:09 [Information] Background job: START
+2025-03-07 17:17:09 [Information] Removed 0 record(s)
+2025-03-07 17:17:09 [Information] Background job: END
+2025-03-07 17:18:09 [Information] Background job: START
+2025-03-07 17:18:09 [Information] Removed 0 record(s)
+2025-03-07 17:18:09 [Information] Background job: END
+2025-03-07 17:19:09 [Information] Background job: START
+2025-03-07 17:19:09 [Information] Removed 0 record(s)
+2025-03-07 17:19:09 [Information] Background job: END
+2025-03-07 17:20:09 [Information] Background job: START
+2025-03-07 17:20:09 [Information] Removed 0 record(s)
+2025-03-07 17:20:09 [Information] Background job: END
+2025-03-07 17:21:09 [Information] Background job: START
+2025-03-07 17:21:09 [Information] Removed 0 record(s)
+2025-03-07 17:21:09 [Information] Background job: END
+2025-03-07 17:22:10 [Information] Background job: START
+2025-03-07 17:22:10 [Information] Removed 0 record(s)
+2025-03-07 17:22:10 [Information] Background job: END
+2025-03-07 17:23:10 [Information] Background job: START
+2025-03-07 17:23:10 [Information] Removed 0 record(s)
+2025-03-07 17:23:10 [Information] Background job: END
+2025-03-07 17:24:10 [Information] Background job: START
+2025-03-07 17:24:10 [Information] Removed 0 record(s)
+2025-03-07 17:24:10 [Information] Background job: END
+2025-03-07 17:25:10 [Information] Background job: START
+2025-03-07 17:25:10 [Information] Removed 0 record(s)
+2025-03-07 17:25:10 [Information] Background job: END
+2025-03-07 17:26:10 [Information] Background job: START
+2025-03-07 17:26:10 [Information] Removed 0 record(s)
+2025-03-07 17:26:10 [Information] Background job: END
+2025-03-07 17:27:10 [Information] Background job: START
+2025-03-07 17:27:10 [Information] Removed 0 record(s)
+2025-03-07 17:27:10 [Information] Background job: END
+2025-03-07 17:28:10 [Information] Background job: START
+2025-03-07 17:28:10 [Information] Removed 0 record(s)
+2025-03-07 17:28:10 [Information] Background job: END
+2025-03-07 17:29:10 [Information] Background job: START
+2025-03-07 17:29:10 [Information] Removed 0 record(s)
+2025-03-07 17:29:10 [Information] Background job: END
+2025-03-07 17:30:10 [Information] Background job: START
+2025-03-07 17:30:10 [Information] Removed 0 record(s)
+2025-03-07 17:30:10 [Information] Background job: END
+2025-03-07 17:31:10 [Information] Background job: START
+2025-03-07 17:31:10 [Information] Removed 0 record(s)
+2025-03-07 17:31:10 [Information] Background job: END
+2025-03-07 17:32:10 [Information] Background job: START
+2025-03-07 17:32:10 [Information] Removed 0 record(s)
+2025-03-07 17:32:10 [Information] Background job: END
+2025-03-07 17:33:10 [Information] Background job: START
+2025-03-07 17:33:10 [Information] Removed 0 record(s)
+2025-03-07 17:33:10 [Information] Background job: END
+2025-03-07 17:34:10 [Information] Background job: START
+2025-03-07 17:34:10 [Information] Removed 0 record(s)
+2025-03-07 17:34:10 [Information] Background job: END
+2025-03-07 17:34:55 [Information] Server desktop-turrar0:49644:05fc31c2 caught stopping signal...
+2025-03-07 17:34:55 [Information] Server desktop-turrar0:49644:05fc31c2 All dispatchers stopped
+2025-03-07 17:34:55 [Information] Server desktop-turrar0:49644:05fc31c2 successfully reported itself as stopped in 1.6973 ms
+2025-03-07 17:34:55 [Information] Server desktop-turrar0:49644:05fc31c2 has been stopped in total 6.1583 ms
+2025-03-07 17:34:59 [Information] Start installing Hangfire SQL objects...
+2025-03-07 17:34:59 [Information] Hangfire SQL objects installed.
+2025-03-07 17:35:00 [Information] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: localhost, DB: HangfireDB, Schema: hangfire'
+2025-03-07 17:35:00 [Information] Using the following options for PostgreSQL job storage:
+2025-03-07 17:35:00 [Information]     Queue poll interval: 00:00:15.
+2025-03-07 17:35:00 [Information]     Invisibility timeout: 00:30:00.
+2025-03-07 17:35:00 [Information]     Use sliding invisibility timeout: False.
+2025-03-07 17:35:00 [Information] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-03-07 17:35:00 [Information] Server desktop-turrar0:41032:bc8f6470 successfully announced in 6.1675 ms
+2025-03-07 17:35:00 [Information] Server desktop-turrar0:41032:bc8f6470 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-03-07 17:35:00 [Information] Server desktop-turrar0:41032:bc8f6470 all the dispatchers started
+2025-03-07 17:35:00 [Information] Background job: START
+2025-03-07 17:35:00 [Information] Removed 0 record(s)
+2025-03-07 17:35:00 [Information] Background job: END
+2025-03-07 17:36:00 [Information] Background job: START
+2025-03-07 17:36:00 [Information] Removed 0 record(s)
+2025-03-07 17:36:00 [Information] Background job: END
+2025-03-07 17:36:03 [Information] Server desktop-turrar0:41032:bc8f6470 caught stopping signal...
+2025-03-07 17:36:03 [Information] Server desktop-turrar0:41032:bc8f6470 All dispatchers stopped
+2025-03-07 17:36:03 [Information] Server desktop-turrar0:41032:bc8f6470 successfully reported itself as stopped in 1.833 ms
+2025-03-07 17:36:03 [Information] Server desktop-turrar0:41032:bc8f6470 has been stopped in total 4.4849 ms
+2025-03-07 18:27:59 [Information] Start installing Hangfire SQL objects...
+2025-03-07 18:27:59 [Information] Hangfire SQL objects installed.
+2025-03-07 18:27:59 [Information] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: localhost, DB: HangfireDB, Schema: hangfire'
+2025-03-07 18:27:59 [Information] Using the following options for PostgreSQL job storage:
+2025-03-07 18:27:59 [Information]     Queue poll interval: 00:00:15.
+2025-03-07 18:27:59 [Information]     Invisibility timeout: 00:30:00.
+2025-03-07 18:27:59 [Information]     Use sliding invisibility timeout: False.
+2025-03-07 18:27:59 [Information] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-03-07 18:27:59 [Information] Server desktop-turrar0:4176:9297e60f successfully announced in 7.4698 ms
+2025-03-07 18:27:59 [Information] Server desktop-turrar0:4176:9297e60f is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-03-07 18:27:59 [Information] Server desktop-turrar0:4176:9297e60f all the dispatchers started
+2025-03-07 18:27:59 [Information] Background job: START
+2025-03-07 18:27:59 [Information] Removed 0 record(s)
+2025-03-07 18:27:59 [Information] Background job: END
+2025-03-07 18:28:13 [Warning] Failed to determine the https port for redirect.
+2025-03-07 18:28:13 [Warning] Failed to determine the https port for redirect.
+2025-03-07 18:28:13 [Information] HTTP "POST" "/api/v1/tasks" responded 401 in 7.3758 ms
+2025-03-07 18:28:14 [Information] Background job: START
+2025-03-07 18:28:14 [Information] Removed 0 record(s)
+2025-03-07 18:28:14 [Information] Background job: END
+2025-03-07 18:28:16 [Information] Login attempt for user: "admin"
+2025-03-07 18:28:16 [Information] Login successful for user: "admin"
+2025-03-07 18:28:16 [Information] HTTP "POST" "/api/v1/auth/login" responded 200 in 51.9384 ms
+2025-03-07 18:28:24 [Information] Creating a new task with title: "wake up 2"
+2025-03-07 18:28:24 [Information] Execute: CreateTaskCommandHandler.Handle
+2025-03-07 18:28:24 [Information] [x] Sent message to createdTasks
+2025-03-07 18:28:24 [Information] Task created with ID: 57645f29-8281-44d1-8de4-714b8a06c0d4
+2025-03-07 18:28:24 [Information] HTTP "POST" "/api/v1/tasks" responded 201 in 292.5878 ms
+2025-03-07 18:29:14 [Information] Background job: START
+2025-03-07 18:29:14 [Information] Removed 0 record(s)
+2025-03-07 18:29:14 [Information] Background job: END
+2025-03-07 18:30:02 [Information] Server desktop-turrar0:4176:9297e60f caught stopping signal...
+2025-03-07 18:30:02 [Information] Server desktop-turrar0:4176:9297e60f All dispatchers stopped
+2025-03-07 18:30:02 [Information] Server desktop-turrar0:4176:9297e60f successfully reported itself as stopped in 2.5304 ms
+2025-03-07 18:30:02 [Information] Server desktop-turrar0:4176:9297e60f has been stopped in total 8.4479 ms
+2025-03-07 18:42:35 [Information] Start installing Hangfire SQL objects...
+2025-03-07 18:42:35 [Information] Hangfire SQL objects installed.
+2025-03-07 18:42:35 [Information] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: localhost, DB: HangfireDB, Schema: hangfire'
+2025-03-07 18:42:35 [Information] Using the following options for PostgreSQL job storage:
+2025-03-07 18:42:35 [Information]     Queue poll interval: 00:00:15.
+2025-03-07 18:42:35 [Information]     Invisibility timeout: 00:30:00.
+2025-03-07 18:42:35 [Information]     Use sliding invisibility timeout: False.
+2025-03-07 18:42:35 [Information] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-03-07 18:42:35 [Information] Server desktop-turrar0:53648:be16a6e3 successfully announced in 6.3122 ms
+2025-03-07 18:42:35 [Information] Server desktop-turrar0:53648:be16a6e3 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-03-07 18:42:35 [Information] Server desktop-turrar0:53648:be16a6e3 all the dispatchers started
+2025-03-07 18:42:36 [Information] Background job: START
+2025-03-07 18:42:36 [Information] Removed 0 record(s)
+2025-03-07 18:42:36 [Information] Background job: END
+2025-03-07 18:42:37 [Warning] Failed to determine the https port for redirect.
+2025-03-07 18:42:37 [Warning] Failed to determine the https port for redirect.
+2025-03-07 18:42:37 [Information] Creating a new task with title: "wake up 2"
+2025-03-07 18:42:37 [Information] Execute: CreateTaskCommandHandler.Handle
+2025-03-07 18:42:37 [Error] Error creating task with title: "wake up 2"
+2025-03-07 18:42:37 [Error] Validation failed: 
+ -- entity.Title: Task with the same title already exists Severity: Error
+2025-03-07 18:42:37 [Information] HTTP "POST" "/api/v1/tasks" responded 400 in 195.2853 ms
+2025-03-07 18:42:45 [Information] Creating a new task with title: "wake up 3"
+2025-03-07 18:42:45 [Information] Execute: CreateTaskCommandHandler.Handle
+2025-03-07 18:42:45 [Information] [x] Sent message to createdTasks
+2025-03-07 18:42:45 [Information] Task created with ID: ef9cbcf1-9971-410f-88a6-364f38589f5e
+2025-03-07 18:42:45 [Information] HTTP "POST" "/api/v1/tasks" responded 201 in 143.0631 ms
+2025-03-07 18:42:51 [Information] Server desktop-turrar0:53648:be16a6e3 caught stopping signal...
+2025-03-07 18:42:51 [Information] Server desktop-turrar0:53648:be16a6e3 All dispatchers stopped
+2025-03-07 18:42:51 [Information] Server desktop-turrar0:53648:be16a6e3 successfully reported itself as stopped in 2.4088 ms
+2025-03-07 18:42:51 [Information] Server desktop-turrar0:53648:be16a6e3 has been stopped in total 5.002 ms
+2025-03-07 18:52:46 [Information] Start installing Hangfire SQL objects...
+2025-03-07 18:52:46 [Information] Hangfire SQL objects installed.
+2025-03-07 18:52:46 [Information] Starting Hangfire Server using job storage: 'PostgreSQL Server: Host: localhost, DB: HangfireDB, Schema: hangfire'
+2025-03-07 18:52:46 [Information] Using the following options for PostgreSQL job storage:
+2025-03-07 18:52:46 [Information]     Queue poll interval: 00:00:15.
+2025-03-07 18:52:46 [Information]     Invisibility timeout: 00:30:00.
+2025-03-07 18:52:46 [Information]     Use sliding invisibility timeout: False.
+2025-03-07 18:52:46 [Information] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2025-03-07 18:52:46 [Information] Server desktop-turrar0:48704:7e42cf1e successfully announced in 6.3796 ms
+2025-03-07 18:52:46 [Information] Server desktop-turrar0:48704:7e42cf1e is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2025-03-07 18:52:46 [Information] Server desktop-turrar0:48704:7e42cf1e all the dispatchers started
+2025-03-07 18:52:46 [Information] Background job: START
+2025-03-07 18:52:46 [Information] Removed 0 record(s)
+2025-03-07 18:52:46 [Information] Background job: END
+2025-03-07 18:52:51 [Warning] Failed to determine the https port for redirect.
+2025-03-07 18:52:51 [Warning] Failed to determine the https port for redirect.
+2025-03-07 18:52:51 [Information] Creating a new task with title: "wake up 4"
+2025-03-07 18:52:51 [Information] Execute: CreateTaskCommandHandler.Handle
+2025-03-07 18:52:51 [Information] [x] Sent message to createdTasks
+2025-03-07 18:52:51 [Information] Task created with ID: d2f46b20-caa7-4721-8147-6cea71e4546f
+2025-03-07 18:52:51 [Information] HTTP "POST" "/api/v1/tasks" responded 201 in 244.6317 ms
+2025-03-07 18:53:01 [Information] Background job: START
+2025-03-07 18:53:01 [Information] Removed 0 record(s)
+2025-03-07 18:53:01 [Information] Background job: END
+2025-03-07 18:53:05 [Information] Server desktop-turrar0:48704:7e42cf1e caught stopping signal...
+2025-03-07 18:53:05 [Information] Server desktop-turrar0:48704:7e42cf1e All dispatchers stopped
+2025-03-07 18:53:05 [Information] Server desktop-turrar0:48704:7e42cf1e successfully reported itself as stopped in 2.2186 ms
+2025-03-07 18:53:05 [Information] Server desktop-turrar0:48704:7e42cf1e has been stopped in total 5.5429 ms

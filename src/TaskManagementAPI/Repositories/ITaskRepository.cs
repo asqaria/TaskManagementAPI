@@ -11,5 +11,6 @@ namespace TaskManagementAPI.Repositories
         Task<TaskEntity> CreateAsync(TaskEntity entity);
         Task UpdateAsync(Guid id, string status);
         Task RemoveAsync(Guid id);
+        Task<int> RemoveOldAsync(int days);
     }
 }

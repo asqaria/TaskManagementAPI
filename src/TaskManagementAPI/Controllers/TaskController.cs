@@ -7,6 +7,11 @@ using TaskManagementAPI.Services.Queries;
 using TaskManagementAPI.Services.Commands;
 using Serilog;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.SignalR;
+using TaskManagementAPI.Hubs;
+using TaskManagementAPI.Services.Interface;
+using MassTransit;
+using TaskManagementAPI.Services;
 
 namespace TaskManagementAPI.Controllers
 {
@@ -15,24 +20,41 @@ namespace TaskManagementAPI.Controllers
     public class TaskController : ControllerBase
     {
         private readonly IMediator _mediator;
+        private readonly IRedisService redisService;
+        private readonly IHubContext<TaskHub> hubContext;
+        private readonly RabbitMQService rabbitMQ;
 
-        public TaskController(IMediator mediator)
+        public TaskController(IMediator mediator, IRedisService redisService, IHubContext<TaskHub> hubContext, RabbitMQService rabbitMQ)
         {
-            _mediator = mediator;
+            this._mediator = mediator;
+            this.redisService = redisService;
+            this.hubContext = hubContext;
+            this.rabbitMQ = rabbitMQ;
         }
 
         [Authorize]
         [HttpGet]
         public async Task<IActionResult> GetTasks(string? statusFilter)
         {
+            string filter = statusFilter;
+            if(string.IsNullOrEmpty(statusFilter)) filter = "All";
             Log.Information("Getting tasks with status filter: {StatusFilter}", statusFilter);
-            var result = await _mediator.Send(new GetTasksQuery(statusFilter));
+
+            var result = await redisService.GetAsync(filter);
+            if (result == null)
+            {
+                result = await _mediator.Send(new GetTasksQuery(statusFilter));
+            }
+            
             if (!result.Any())
             {
                 Log.Information("No tasks found with status filter: {StatusFilter}", statusFilter);
                 return NotFound();
             }
+
             Log.Information("Found {Count} tasks with status filter: {StatusFilter}", result.Count(), statusFilter);
+            await redisService.SetAsync(filter, result, TimeSpan.FromMinutes(1));
+
             return Ok(result);
         }
 
@@ -65,6 +87,8 @@ namespace TaskManagementAPI.Controllers
             try
             {
                 var result = await _mediator.Send(new CreateTaskCommand(task));
+                await hubContext.Clients.All.SendAsync("RecieveMessage", taskDto.Title, taskDto.Description, taskDto.Status);
+                rabbitMQ.SendMessage(taskDto, "createdTasks");
                 Log.Information("Task created with ID: {Id}", result.Id);
                 return CreatedAtAction(nameof(GetTask), new { id = result.Id }, task.asDto());
             }
